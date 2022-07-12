@@ -2,7 +2,7 @@ import React from "react";
 import Post from "../assets/postman.png";
 import Image from "next/image";
 import Chat from "../assets/chat.png";
-import Hash from "../assets/Hashtag.png";
+import Hash from "../assets/hashtag.png";
 
 const Info = () => {
   return (
