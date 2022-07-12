@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar-track {
+  background-color: none;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f3780c;
+  border-radius: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Karla", sans-serif;
+  background-color: #fff8d9;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+}
+
+/* Contact us button*/
+.button-50 {
+  appearance: button;
+  background-color: #ffb602;
+  background-image: none;
+  border: 4px solid #1f1f1f;
+  box-shadow: #1f1f1f 4px 4px 0 0, #1f1f1f 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Karla", sans-serif;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding: calc(0.2rem - 0px) calc(1rem - 1px);
+  margin-left: -22rem;
+  font-weight: 800;
+  overflow: visible;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, 0) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: 2px 2px 0 0, #1f1f1f 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+/* Contact us button*/
+.button-2 {
+  appearance: button;
+  background-color: #ffb602;
+  background-image: none;
+  border: 4px solid #1f1f1f;
+  box-shadow: #1f1f1f 4px 4px 0 0, #1f1f1f 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Karla", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  line-height: 2rem;
+  padding: calc(0.2rem - 0px) calc(1rem - 1px);
+  font-weight: 800;
+  overflow: visible;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-2:focus {
+  text-decoration: none;
+}
+
+.button-2:hover {
+  text-decoration: none;
+}
+
+.button-2:active {
+  box-shadow: rgba(0, 0, 0, 0) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-2:not([disabled]):active {
+  box-shadow: 2px 2px 0 0, #1f1f1f 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+/* === Submit Button ==== */
+
+.submit {
+  appearance: button;
+  background-color: #ffb602;
+  background-image: none;
+  border: 4px solid #1f1f1f;
+  box-shadow: #1f1f1f 4px 4px 0 0, #1f1f1f 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Karla", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  line-height: 2rem;
+  padding: calc(0.2rem - 0px) calc(1rem - 1px);
+  font-weight: 800;
+  overflow: visible;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.submit:focus {
+  text-decoration: none;
+}
+
+.submit:hover {
+  text-decoration: none;
+}
+
+.submit:active {
+  box-shadow: rgba(0, 0, 0, 0) 0 3px 5px inset;
+  outline: 0;
+}
+
+.submit:not([disabled]):active {
+  box-shadow: 2px 2px 0 0, #1f1f1f 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+/* === arrow ==== */
+
+.arrow {
+  position: absolute;
+  transform: scaleX(-1);
+  margin-left: 13rem;
+  margin-top: -4rem;
+}
+
+/* =============== MEDIA QUIERIES (SMALL DEVICES) =============== */
+
+@media screen and (max-width: 640px) {
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
+
+  .button-50 {
+    display: none;
+  }
+}
