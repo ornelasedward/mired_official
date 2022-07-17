@@ -2,6 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"]:active,
+input[type="number"]:focus {
+  background-color: #bcd2e8;
+}
+
+input[type="text"]:active,
+input[type="text"]:focus {
+  background-color: #bcd2e8;
+}
+
+input[type="email"]:active,
+input[type="email"]:focus {
+  background-color: #bcd2e8;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  font-size: 22px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  font-size: 22px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+input[type="email"] {
+  font-size: 22px;
+  padding: 1rem;
+  font-weight: bold;
+}
+
 ::-webkit-scrollbar-track {
   background-color: none;
 }
@@ -49,12 +90,10 @@ p {
   box-sizing: border-box;
   color: #1f1f1f;
   cursor: pointer;
-  display: inline-block;
   font-family: "Karla", sans-serif;
   font-size: 1.3rem;
   line-height: 2rem;
   padding: calc(0.2rem - 0px) calc(1rem - 1px);
-  margin-left: -22rem;
   font-weight: 800;
   overflow: visible;
   touch-action: manipulation;
@@ -172,13 +211,9 @@ p {
   transform: translate(2px, 2px);
 }
 
-/* === arrow ==== */
-
-.arrow {
-  position: absolute;
-  transform: scaleX(-1);
-  margin-left: 13rem;
-  margin-top: -4rem;
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
 /* =============== MEDIA QUIERIES (SMALL DEVICES) =============== */

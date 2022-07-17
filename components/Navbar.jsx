@@ -32,7 +32,7 @@ const Navbar = () => {
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
       <div className="">
-        <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 border-b-[0.3rem] border-[#010001]">
+        <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 border-b-[0.15rem] border-[#010001]">
           <Link href="/" className="">
             <Image src={Logo} width={153} height={36} />
           </Link>
@@ -41,18 +41,18 @@ const Navbar = () => {
               <Link href="/">home</Link>
             </li>
             <li className="p-4 font-bold text-[1.4rem]">
-              <Link href="/Services">services</Link>
+              <Link href="#services">services</Link>
             </li>
             <li className="p-4 font-bold text-[1.4rem]">
-              <Link href="/info">info</Link>
+              <Link href="#info">info</Link>
             </li>
-            <li className="p-4 font-bold text-[1.4rem]">
-              <Link href="/">our work</Link>
+            <li className="p-4 font-bold text-[1.4rem] w-[9rem]">
+              <Link href="#portfolio">our work</Link>
             </li>
           </ul>
-          <div className="button-50">
-            <Link href="/Contact">contact us</Link>
-          </div>
+          <button className="button-50">
+            <Link href="#contact">contact us</Link>
+          </button>
         </div>
 
         {/* Mobile Button */}
@@ -82,25 +82,25 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-2 text-4xl hover:text-orange-500 font-bold"
             >
-              <Link href="/services">services</Link>
+              <Link href="#services">services</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-2 text-4xl hover:text-orange-500 font-bold"
             >
-              <Link href="/Info">info</Link>
+              <Link href="#info">info</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-2 text-4xl hover:text-orange-500 font-bold"
             >
-              <Link href="/#gallery">our work</Link>
+              <Link href="#portfolio">our work</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-2 text-4xl hover:text-orange-500 font-bold"
             >
-              <Link href="/contact">contact us</Link>
+              <Link href="#contact">contact us</Link>
             </li>
           </ul>
         </div>

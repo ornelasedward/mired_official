@@ -6,7 +6,7 @@ import Hash from "../assets/hashtag.png";
 
 const Info = () => {
   return (
-    <div className="bg-[#FFF8D9]">
+    <div id="info" className="bg-[#FFF8D9]">
       <div className="text-4xl place-items-center py-[4rem] text-center mb-[-2rem]">
         <h1>reach out</h1>
       </div>
