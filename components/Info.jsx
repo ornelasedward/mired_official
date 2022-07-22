@@ -16,7 +16,10 @@ const Info = () => {
       {/* Mobile */}
 
       <div className="max-w-[1240px] m-auto sm:hidden">
-        <div className="3xs:absolute sm:hidden 3xs:mt-[-7rem] 3xs:w-[560px] 3xs:ml-[-11rem] xxs:mt-[-7rem] xxs:w-[750px] xxs:ml-[-8rem] xs:ml-[-4rem] sxx:ml-[-6rem] sx:ml-[-2rem]">
+        <div
+          className="fixed
+         sm:hidden 3xs:mt-[-7rem] 3xs:w-[560px] 3xs:ml-[-11rem] xxs:mt-[-7rem] xxs:w-[750px] xxs:ml-[-8rem] xs:ml-[-4rem] sxx:ml-[-6rem] sx:ml-[-2rem]"
+        >
           <Image src={Post} />
         </div>
         <div className="m-auto my-[6.5rem] sm:hidden ">
