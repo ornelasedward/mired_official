@@ -77,34 +77,31 @@ const Navbar = () => {
         <ul>
           <li
             onClick={handleNav}
-            className="p-2 text-4xl hover:text-orange-500 font-bold"
+            className="p-4 text-4xl hover:text-orange-500 font-bold"
           >
             <Link href="/">home</Link>
           </li>
           <li
             onClick={handleNav}
-            className="p-2 text-4xl hover:text-orange-500 font-bold"
+            className="p-4 text-4xl hover:text-orange-500 font-bold"
           >
             <Link href="#services">services</Link>
           </li>
           <li
             onClick={handleNav}
-            className="p-2 text-4xl hover:text-orange-500 font-bold"
+            className="p-4 text-4xl hover:text-orange-500 font-bold"
           >
             <Link href="#info">info</Link>
           </li>
           <li
             onClick={handleNav}
-            className="p-2 text-4xl hover:text-orange-500 font-bold"
+            className="pt-4 pb-8 text-4xl hover:text-orange-500 font-bold"
           >
             <Link href="#portfolio">our work</Link>
           </li>
-          <li
-            onClick={handleNav}
-            className="p-2 text-4xl hover:text-orange-500 font-bold"
-          >
+          <button onClick={handleNav} className="button-50 w-[140px]">
             <Link href="#contact">contact us</Link>
-          </li>
+          </button>
         </ul>
       </div>
     </div>
