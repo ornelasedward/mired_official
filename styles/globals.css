@@ -132,9 +132,8 @@ p {
   box-sizing: border-box;
   color: #1f1f1f;
   cursor: pointer;
-  display: inline-block;
   font-family: "Karla", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-top: 1rem;
   line-height: 2rem;
   padding: calc(0.2rem - 0px) calc(1rem - 1px);
@@ -231,7 +230,36 @@ input:focus {
     display: none;
   }
 
+  .button-2 {
+    font-size: 1.05rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .button-50 {
-    display: none;
+    font-size: 0.9rem;
+    padding: 0rem 0.4rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+    font-size: 15px;
+    padding: 1rem;
+    font-weight: bold;
+  }
+
+  input[type="text"] {
+    font-size: 15px;
+    padding: 1rem;
+    font-weight: bold;
+  }
+
+  input[type="email"] {
+    font-size: 15px;
+    padding: 1rem;
+    font-weight: bold;
   }
 }
