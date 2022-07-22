@@ -4,8 +4,8 @@ const Services = () => {
   return (
     <div id="services" className="bg-[#FFEC9D]">
       <div className="3xs:text-xl xs:text-4xl grid place-items-center py-[3rem] text-center">
-        <h1 className="3xs:hidden sm:block">you have a product, now what?</h1>
-        <h1 className="3xs:block sm:hidden 3xs:mb-6 xr:mb-10">
+        <h1 className="3xs:hidden lg:block">you have a product, now what?</h1>
+        <h1 className="3xs:block lg:hidden 3xs:mb-6 sm:mb-4 lr:mb-10">
           you have a product, <br /> now what?
         </h1>
         {/* app */}
@@ -58,9 +58,65 @@ const Services = () => {
           </h4>
         </div>
       </div>
+
+      {/* Tablet */}
+
+      <div className="max-w-[1240px] m-auto 3xs:hidden sm:block mr:hidden">
+        <div className="w-[533px] m-auto justify-between items-center">
+          <div className="w-[32.688rem] h-[13.813rem] border-4 border-[#1E1E1F] bg-[#92C2EB] drop-shadow-[5px_4px_0px_rgb(30,30,31)] mb-[2rem]">
+            <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
+              <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-3" />
+              <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-1" />
+              <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-1" />
+            </div>
+            <div className="place-items-center text-center mt-2">
+              <h1 className="text-4xl">design</h1>
+              <h4 className="text-[1.3rem]">
+                <b>97%</b> of websites <b>fail</b> at providing <br /> users a
+                good experience. thats <br />
+                where we come in.
+              </h4>
+            </div>
+          </div>
+          <div className="w-[33rem] h-[12rem] mb-[4rem]">
+            <h4 className="text-[1.3rem] text-center">
+              all good designs begin with research. before <span />
+              any website can be developed, we will need <span /> to better
+              understand your business and <span /> your users. our goal is to
+              eliminate <span />
+              “opinion-driven” designs, and to create a <span /> research-based
+              design that keeps your <span /> users needs in mind. <br />
+            </h4>
+          </div>
+          <div className="w-[32.688rem] h-[13.813rem] border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[5px_4px_0px_rgb(30,30,31)] mb-[2rem]">
+            <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
+              <div className="w-[1.125rem] h-[1.125rem] bg-[#88EB8C] rounded-full border-2 border-[#1E1E1F] ml-3" />
+              <div className="w-[1.125rem] h-[1.125rem] bg-[#88EBBC] rounded-full border-2 border-[#1E1E1F] ml-1" />
+              <div className="w-[1.125rem] h-[1.125rem] bg-[#88EBBC] rounded-full border-2 border-[#1E1E1F] ml-1" />
+            </div>
+            <div className="place-items-center text-center mt-2">
+              <h1 className="text-4xl">development</h1>
+              <h4 className="text-[1.3rem]">
+                from <b>front-end</b> using ReactJS and <br /> NextJS, to{" "}
+                <b>back-end </b>
+                using Python <br />
+                and nodeJS, we got your back.
+              </h4>
+            </div>
+          </div>
+          <div className="w-[33rem] h-[10rem]">
+            <h4 className="text-[1.3rem] text-center">
+              from ecommerce, to corporate websites, to <span /> local shops, we
+              can develop custom, <span /> modern, cutting edge website designs
+              for any ambitious business.
+            </h4>
+          </div>
+        </div>
+      </div>
+
       {/* desktop */}
-      <div className="max-w-[1240px] m-auto justify-between p-6 grid-cols-2 3xs:hidden sm:grid">
-        <div className="w-[32.688rem] h-[13.813rem] border-4 border-[#1E1E1F] bg-[#92C2EB] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
+      <div className="max-w-[1240px] m-auto justify-between p-6 grid-cols-2 hidden mr:grid">
+        <div className="mr:w-[25rem] mr:h-[15rem] lr:w-[32.688rem] lr:h-[13.813rem] border-4 border-[#1E1E1F] bg-[#92C2EB] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
           <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
             <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-3" />
             <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-1" />
@@ -75,8 +131,8 @@ const Services = () => {
             </h4>
           </div>
         </div>
-        <div className="w-[30.625rem] h-[17rem]">
-          <h4 className="text-[1.3rem] text-right">
+        <div className=" lr:w-[30.625rem] h-[17rem]">
+          <h4 className="text-[1.3rem] mr:text-left lr:text-right">
             all good designs begin with research. before <span />
             any website can be developed, we will need <span /> to better
             understand your business and <span /> your users. our goal is to
@@ -85,7 +141,7 @@ const Services = () => {
             design that keeps your <span /> users needs in mind. <br />
           </h4>
         </div>
-        <div className="w-[32.688rem] h-[13.813rem] border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[5px_4px_0px_rgb(30,30,31)] mb-[7rem]">
+        <div className="mr:w-[25rem] mr:h-[15rem] lr:w-[32.688rem] lr:h-[13.813rem] border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[5px_4px_0px_rgb(30,30,31)] mb-[4rem]">
           <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
             <div className="w-[1.125rem] h-[1.125rem] bg-[#88EB8C] rounded-full border-2 border-[#1E1E1F] ml-3" />
             <div className="w-[1.125rem] h-[1.125rem] bg-[#88EBBC] rounded-full border-2 border-[#1E1E1F] ml-1" />
@@ -101,8 +157,8 @@ const Services = () => {
             </h4>
           </div>
         </div>
-        <div className="w-[30.625rem] h-[14rem]">
-          <h4 className="text-[1.3rem] text-right">
+        <div className="lr:w-[30.625rem]">
+          <h4 className="text-[1.3rem] lr:text-right">
             <br />
             <br />
             from ecommerce, to corporate websites, to <span /> local shops, we
