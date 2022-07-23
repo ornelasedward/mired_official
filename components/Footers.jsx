@@ -5,44 +5,45 @@ import { RiMessengerLine } from "react-icons/ri";
 import { BsYoutube } from "react-icons/bs";
 import Image from "next/image";
 import Logo from "../assets/Logo.png";
+import Link from "next/link";
 
 const Footers = () => {
   return (
     <footer>
-      <a href="/" className="footer__logo w-[8rem]">
+      <Link href="/" className="footer__logo w-[8rem]">
         <Image src={Logo} />
-      </a>
+      </Link>
 
       <ul className="permalinks">
         <li>
-          <a href="/"> Home </a>
+          <Link href="/"> Home </Link>
         </li>
         <li>
-          <a href="#services">services</a>
+          <Link href="#services">services</Link>
         </li>
         <li>
-          <a href="#info">info </a>
+          <Link href="#info">info </Link>
         </li>
         <li>
-          <a href="#info">our work </a>
+          <Link href="#info">our work </Link>
         </li>
         <li>
-          <a href="#contact"> Contact </a>
+          <Link href="#contact"> Contact </Link>
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <Link href="https://facebook.com">
           <FaFacebookF />
-        </a>
-        <a href="https://www.linkedin.com/">
+        </Link>
+        <Link href="https://www.linkedin.com/">
           <AiOutlineLinkedin />
-        </a>
-        <a href="/">
+        </Link>
+        <Link href="/">
           <RiMessengerLine />
-        </a>
-        <a href="https://www.youtube.com/">
+        </Link>
+        <Link href="https://www.youtube.com/">
           <BsYoutube />
-        </a>
+        </Link>
       </div>
 
       <div className="footer__copyright">
