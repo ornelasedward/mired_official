@@ -414,6 +414,7 @@ footer a {
   float: left;
   transition: all 0.2s ease-out;
   text-align: center;
+  margin-top: 1.3rem;
   padding-top: 0.2rem;
   padding-bottom: 1.4rem;
   margin-left: 2rem;
@@ -492,8 +493,6 @@ footer a {
   }
 
   .orb {
-    margin-top: 0.4rem;
-    font-size: small;
     margin-left: 1rem;
     margin-right: 1rem;
   }

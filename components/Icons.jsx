@@ -4,7 +4,7 @@ const Icons = () => {
   return (
     <div id="Icons" className="bg-[#89eb8D] border-y-4 border-black">
       <div className="max-w-[1240px] overflow-hidden m-auto">
-        <div className="marquee h-[3.4rem]">
+        <div className="marquee h-[6rem]">
           <div className="marquee--inner">
             <span>
               <div className="orb red">
