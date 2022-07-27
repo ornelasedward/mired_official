@@ -2,7 +2,7 @@ import React from "react";
 
 const Icons = () => {
   return (
-    <div id="Icons" className="bg-[#89eb8D] border-y-2 border-black">
+    <div id="Icons" className="bg-[#89eb8D] border-y-4 border-black">
       <div className="max-w-[1240px] overflow-hidden m-auto">
         <div className="marquee h-[3.4rem]">
           <div className="marquee--inner">

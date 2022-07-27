@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Lemon from "../assets/lemonade.png";
-import Travel from "../assets/travel.png";
+import Lemon from "../assets/lemonade.jpg";
+import Travel from "../assets/travel.jpg";
 import MJ from "../assets/mj.png";
 import { BsArrow90DegUp } from "react-icons/bs";
 import Link from "next/link";
@@ -14,13 +14,13 @@ const Portfolio = () => {
       </div>
       <div className="max-w-[1240px] m-auto">
         <ul className="flex justify-content">
-          <li className="3xs:hidden sx:block m-4 w-full h-[450px] overflow-hidden overflow-y-scroll border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[9px_8px_0px_rgb(30,30,31)] p-2">
+          <li className="3xs:hidden sx:block m-4 w-full h-[450px] overflow-hidden overflow-y-scroll border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
             <Image src={Travel} />
           </li>
           <li className="m-4 w-full h-[450px] overflow-hidden overflow-y-scroll border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
             <Image src={Lemon} />
           </li>
-          <li className="3xs:hidden le:block m-4 w-full h-[450px] overflow-hidden overflow-y-scroll border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[9px_8px_0px_rgb(30,30,31)] p-2">
+          <li className="3xs:hidden le:block m-4 w-full h-[450px] overflow-hidden overflow-y-scroll border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
             <Image src={MJ} />
           </li>
         </ul>
