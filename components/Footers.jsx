@@ -14,9 +14,9 @@ const Footers = () => {
         <Image src={Logo} />
       </Link>
 
-      <ul className="permalinks">
+      <ul className="permalinks font-bold p-4">
         <li>
-          <Link href="/"> Home </Link>
+          <Link href="/"> home </Link>
         </li>
         <li>
           <Link href="#services">services</Link>

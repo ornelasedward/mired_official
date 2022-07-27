@@ -56,30 +56,31 @@ const Info = () => {
       </div>
 
       {/* Desktop */}
-
-      <div className="max-w-[1240px] m-auto justify-between p-6 grid grid-cols-2">
-        <div className="3xs:hidden sm:inline-block">
-          <Image src={Post} />
-        </div>
-        <div className="h-[24.688rem] w-[25.75rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)] mt-[6rem] ml-[4.5rem] 3xs:hidden sm:block">
-          <div className="h-[6.375rem] border-b-4 border-[#1E1E1F] bg-[#FFA6CE] m-auto flex items-center">
-            <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-3" />
-            <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-1" />
-            <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-1" />
-            <h4 className="text-4xl ml-[6.5rem]">info</h4>
-            <div className="border-t-[.16rem] border-black w-14 ml-[5rem]" />
+      <div className="max-w-[1240px] m-auto">
+        <div className="flex justify-content justify-center">
+          <div className="3xs:hidden mid:inline-block">
+            <Image src={Post} />
           </div>
-          <div className="p-6 m-auto flex justify-between items-center">
-            <div className="drop-shadow-[5px_4px_0px_rgb(0,0,0)]">
-              <Image src={Hash} />
+          <div className="h-[24.688rem] w-[25.75rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)] 3xs:hidden sm:block">
+            <div className="h-[6.375rem] border-b-4 border-[#1E1E1F] bg-[#FFA6CE] m-auto flex items-center">
+              <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-3" />
+              <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-1" />
+              <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-1" />
+              <h4 className="text-4xl ml-[6.5rem]">info</h4>
+              <div className="border-t-[.16rem] border-black w-14 ml-[5rem]" />
             </div>
-            <h4 className="text-[1.5rem]"> (469) 619-7722</h4>
-          </div>
-          <div className="p-6 m-auto flex justify-between items-center">
-            <div className="drop-shadow-[5px_4px_0px_rgb(0,0,0)]">
-              <Image src={Chat} />
+            <div className="p-6 m-auto flex justify-between items-center">
+              <div className="drop-shadow-[5px_4px_0px_rgb(0,0,0)]">
+                <Image src={Hash} />
+              </div>
+              <h4 className="text-[1.5rem]"> (469) 619-7722</h4>
             </div>
-            <h4 className="text-[1.3rem]">ContactMired@gmail.com</h4>
+            <div className="p-6 m-auto flex justify-between items-center">
+              <div className="drop-shadow-[5px_4px_0px_rgb(0,0,0)]">
+                <Image src={Chat} />
+              </div>
+              <h4 className="text-[1.3rem]">ContactMired@gmail.com</h4>
+            </div>
           </div>
         </div>
       </div>

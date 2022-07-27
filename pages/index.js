@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Image from "next/image";
 import Bubbles from "../components/Bubbles";
 import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Info from "../components/Info";
 import Services from "../components/Services";
 import Footers from "../components/Footers";
+import Portfolio from "../components/Portfolio";
+import Icons from "../components/Icons";
 
 export default function Home() {
   return (
@@ -18,7 +18,9 @@ export default function Home() {
       </Head>
       <Bubbles />
       <Hero />
+      <Icons />
       <Services />
+      <Portfolio />
       <Info />
       <Contact />
       <Footers />
