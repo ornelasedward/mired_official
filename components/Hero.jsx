@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import First from "../assets/first.png";
 import Link from "next/link";
 import Arrow from "../assets/arrow.png";
+import Spline from "@splinetool/react-spline";
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
           <Image src={Arrow} />
         </div>
         <div className="mt-[5rem] 3xs:block px-10 mid:hidden">
-          <Image src={First} />
+          <Spline scene="https://prod.spline.design/faF4KqYx4gNUEJpR/scene.splinecode" />
         </div>
       </div>
 
@@ -52,10 +52,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="lgr:mt-[9rem] 3xs:hidden lgr:flex">
-          <Image src={First} />
+          <Spline scene="https://prod.spline.design/faF4KqYx4gNUEJpR/scene.splinecode" />
         </div>
         <div className="hidden mid:block lgr:hidden mid:w-[500px] le:w-[600px] mid:mt-[8.5rem]">
-          <Image src={First} />
+          <Spline scene="https://prod.spline.design/faF4KqYx4gNUEJpR/scene.splinecode" />
         </div>
       </div>
       <div className="max-w-[1320px] m-auto flex">

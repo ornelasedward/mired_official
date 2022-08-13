@@ -7,6 +7,8 @@ import Services from "../components/Services";
 import Footers from "../components/Footers";
 import Portfolio from "../components/Portfolio";
 import Icons from "../components/Icons";
+import Qoute from "../components/Qoute";
+import ServicesExplained from "../components/ServicesExplained";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <Hero />
       <Icons />
       <Services />
+      <Qoute />
+      <ServicesExplained />
       <Portfolio />
       <Info />
       <Contact />
