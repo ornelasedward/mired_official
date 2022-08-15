@@ -209,6 +209,48 @@ p {
   transform: translate(2px, 2px);
 }
 
+.button-3 {
+  appearance: button;
+  background-color: #ffb602;
+  background-image: none;
+  border: 4px solid #1f1f1f;
+  box-shadow: #1f1f1f 4px 4px 0 0, #1f1f1f 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  cursor: pointer;
+  font-family: "Karla", sans-serif;
+  font-size: 1.05rem;
+  margin-top: 1rem;
+  line-height: 2rem;
+  padding: calc(0.2rem - 0px) calc(1rem - 1px);
+  font-weight: 800;
+  overflow: visible;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus {
+  text-decoration: none;
+}
+
+.button-3:hover {
+  text-decoration: none;
+}
+
+.button-3:active {
+  box-shadow: rgba(0, 0, 0, 0) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-3:not([disabled]):active {
+  box-shadow: 2px 2px 0 0, #1f1f1f 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
 /* === Submit Button ==== */
 
 .submit {

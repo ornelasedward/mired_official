@@ -10,6 +10,18 @@ import Icons from "../components/Icons";
 import Qoute from "../components/Qoute";
 import ServicesExplained from "../components/ServicesExplained";
 
+const index = () => {
+  // mobile nav state
+  const [navMobile, setNavMobile] = useState(false);
+  // aos init
+  useEffect(() => {
+    Aos.init({
+      duration: 2500,
+      delay: 400,
+    });
+  });
+};
+
 export default function Home() {
   return (
     <div>
@@ -23,7 +35,6 @@ export default function Home() {
       <Icons />
       <Services />
       <Qoute />
-      <ServicesExplained />
       <Portfolio />
       <Info />
       <Contact />

@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
@@ -53,14 +53,16 @@ module.exports = {
 
       xxl: "1320px",
 
+      xxxl: "1365px",
+
       "2xl": "1600px",
       // => @media (min-width: 1280px) {...}
 
       "3xl": "1800px",
       // => @media (min-width: 1280px) {...}
-      "4xl": "2000px"
+      "4xl": "2000px",
       // => @media (min-width: 1280px) {...}
-    }
+    },
   },
-  plugins: []
+  plugins: [],
 };
