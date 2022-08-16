@@ -1,171 +1,173 @@
 import React from "react";
+import branding from "../assets/branding.png";
+import design from "../assets/design.png";
+import dev from "../assets/dev.png";
+import mag from "../assets/mag.png";
+import seo from "../assets/seo.png";
+import social from "../assets/social.png";
+import Image from "next/image";
+import Link from "next/link";
 
 const Services = () => {
   return (
-    <div id="services" className="bg-[#FFEC9D]">
-      <div className="3xs:text-xl xs:text-4xl grid place-items-center py-[3rem] text-center">
-        <h1 className="3xs:hidden lg:block">you have a product, now what?</h1>
-        <h1 className="3xs:block lg:hidden 3xs:mb-6 sm:mb-4 lr:mb-10">
-          you have a product, <br /> now what?
+    <div id="services" className="bg-[#92C2EB]">
+      <div className="max-w-[1240px] m-auto">
+        <h1 className="text-center text-3xl pt-11 sm:pt-[5rem]">
+          our services
         </h1>
-        {/* app */}
-        <div className="grid grid-cols-2 3xs:mb-[-6rem] xr:mb-[-4rem] sm:hidden">
-          <div className="3xs:w-[9rem] 3xs:h-[16rem] sxx:w-[10.5rem] xxs:w-[11rem] xr:w-[13rem] xr:h-[15.813rem] border-4 border-[#1E1E1F] bg-[#92C2EB] drop-shadow-[5px_4px_0px_rgb(30,30,31)] 3xs:mx-1 xxs:mx-2 xr:mx-3">
-            <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-3" />
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-1" />
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-1" />
-            </div>
-            <div className="place-items-center text-center">
-              <h1 className="3xs:my-2  xxs:my-2 xr:text-2xl xr:my-2 xr:mb-4">
-                design
-              </h1>
-              <h4 className="3xs:text-[0.8rem] 3xs:leading-6 3xs:m-1 xr:text-[1rem] xr:leading-5 xr:px-2">
-                <b>97%</b> of websites <b>fail</b> at providing users a good
-                experience. <br /> thats where we come in.
-              </h4>
-            </div>
-          </div>
-          <div className="3xs:w-[9rem] 3xs:h-[16rem] xr:w-[13rem] sxx:w-[10.5rem] xxs:w-[11rem] xr:h-[15.813rem] border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[5px_4px_0px_rgb(30,30,31)] mb-[7rem] 3xs:mx-1 xxs:mx-2 xr:mx-3">
-            <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#88EB8C] rounded-full border-2 border-[#1E1E1F] ml-3" />
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#88EBBC] rounded-full border-2 border-[#1E1E1F] ml-1" />
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#88EBBC] rounded-full border-2 border-[#1E1E1F] ml-1" />
-            </div>
-            <div className="place-items-center text-center xr:mt-2">
-              <h1 className="3xs:my-2 xxs:my-2 xr:text-2xl xr:my-2 xr:mb-4">
-                development
-              </h1>
-              <h4 className="3xs:text-[0.8rem] 3xs:leading-6 3xs:m-1 xr:text-[1rem] xr:leading-5 xr:px-2">
-                from <b> front-end </b> using ReactJS and NextJS, to
-                <b> back-end </b>
-                using Python and nodeJS, we got your back.
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div className="px-2 3xs:block sm:hidden">
-          <h4 className="text-[1.2rem] font-normal text-center p-4">
-            all <i> good </i> designs begin with research. before any website
-            can be developed, we will need to better understand your <br />{" "}
-            business and your users. our goal is to eliminate “opinion-driven”
-            designs, and to create a research-based design that keeps your users
-            needs in mind. <br />
-            <br />
-            from ecommerce, to corporate websites, to local shops, we can
-            develop custom, modern, cutting edge website designs for any
-            ambitious business.
-          </h4>
-        </div>
-      </div>
 
-      {/* Tablet */}
+        {/* Desktop*/}
 
-      <div className="max-w-[1240px] m-auto 3xs:hidden sm:block mr:hidden">
-        <div className="w-[533px] m-auto justify-between items-center">
-          <div className="w-[32.688rem] h-[13.813rem] border-4 border-[#1E1E1F] bg-[#92C2EB] drop-shadow-[5px_4px_0px_rgb(30,30,31)] mb-[2rem]">
-            <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-3" />
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-1" />
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-1" />
+        <div className="hidden sm:block p-[1rem] lgr:py-[5rem]">
+          <ul className="flex justify-center">
+            <li className="m-2 mid:m-8 w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={mag} width="85" height="85" />
+                <h1 className="text-lg py-8 mr:text-2xl">UX research</h1>
+                <h4 className="py-4">
+                  competitive analysis, surveys, user interviews, usability
+                  testing
+                </h4>
+              </div>
+            </li>
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={design} width="85" height="85" />
+                <h1 className="text-lg mr:text-2xl py-8">UX/UI Design</h1>
+                <h4 className="py-4">
+                  website, mobile applications, user interface
+                </h4>
+              </div>
+            </li>
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={branding} width="85" height="85" />
+                <h1 className="text-lg mr:text-2xl py-8">Branding</h1>
+                <h4 className="py-4">
+                  logo design, brand guidelines, positioning
+                </h4>
+              </div>
+            </li>
+          </ul>
+          <ul className="flex justify-center">
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={dev} width="85" height="85" />
+                <h1 className="text-lg mr:text-2xl py-8">Development</h1>
+                <h4 className="py-4">css, html javascript, react, nextjs</h4>
+              </div>
+            </li>
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={seo} width="85" height="85" />
+                <h1 className="text-lg mr:text-2xl py-8">SEO</h1>
+                <h4 className="py-4">keyword research, location pages, GMB</h4>
+              </div>
+            </li>
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={social} width="85" height="85" />
+                <h1 className="text-lg mr:text-2xl py-4">
+                  Social Media Management
+                </h1>
+                <h4 className="py-4">
+                  advertisement, messaging, moderation, engagement
+                </h4>
+              </div>
+            </li>
+          </ul>
+          <h4 className="text-center text-3xl pt-4">
+            find what you're looking for?
+          </h4>
+          <div className="flex w-full justify-center mb-11">
+            <div className="button-3 w-[8rem]">
+              <Link href="#contact">contact us</Link>
             </div>
-            <div className="place-items-center text-center mt-2">
-              <h1 className="text-4xl">design</h1>
-              <h4 className="text-[1.3rem]">
-                <b>97%</b> of websites <b>fail</b> at providing <br /> users a
-                good experience. thats <br />
-                where we come in.
-              </h4>
-            </div>
-          </div>
-          <div className="w-[33rem] h-[12rem] mb-[4rem]">
-            <h4 className="text-[1.3rem] text-center">
-              all good designs begin with research. before <span />
-              any website can be developed, we will need <span /> to better
-              understand your business and <span /> your users. our goal is to
-              eliminate <span />
-              “opinion-driven” designs, and to create a <span /> research-based
-              design that keeps your <span /> users needs in mind. <br />
-            </h4>
-          </div>
-          <div className="w-[32.688rem] h-[13.813rem] border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[5px_4px_0px_rgb(30,30,31)] mb-[2rem]">
-            <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#88EB8C] rounded-full border-2 border-[#1E1E1F] ml-3" />
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#88EBBC] rounded-full border-2 border-[#1E1E1F] ml-1" />
-              <div className="w-[1.125rem] h-[1.125rem] bg-[#88EBBC] rounded-full border-2 border-[#1E1E1F] ml-1" />
-            </div>
-            <div className="place-items-center text-center mt-2">
-              <h1 className="text-4xl">development</h1>
-              <h4 className="text-[1.3rem]">
-                from <b>front-end</b> using ReactJS and <br /> NextJS, to{" "}
-                <b>back-end </b>
-                using Python <br />
-                and nodeJS, we got your back.
-              </h4>
-            </div>
-          </div>
-          <div className="w-[33rem] h-[10rem]">
-            <h4 className="text-[1.3rem] text-center">
-              from ecommerce, to corporate websites, to <span /> local shops, we
-              can develop custom, <span /> modern, cutting edge website designs
-              for any ambitious business.
-            </h4>
           </div>
         </div>
-      </div>
 
-      {/* desktop */}
-      <div className="max-w-[1240px] m-auto justify-between p-6 grid-cols-2 hidden mr:grid">
-        <div className="mr:w-[25rem] mr:h-[15rem] lr:w-[32.688rem] lr:h-[13.813rem] border-4 border-[#1E1E1F] bg-[#92C2EB] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
-          <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
-            <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-3" />
-            <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-1" />
-            <div className="w-[1.125rem] h-[1.125rem] bg-[#92C2EB] rounded-full border-2 border-[#1E1E1F] ml-1" />
-          </div>
-          <div className="place-items-center text-center mt-2">
-            <h1 className="text-4xl">design</h1>
-            <h4 className="text-[1.3rem]">
-              <b>97%</b> of websites <b>fail</b> at providing <br /> users a
-              good experience. thats <br />
-              where we come in.
-            </h4>
-          </div>
-        </div>
-        <div className=" lr:w-[30.625rem] h-[17rem]">
-          <h4 className="text-[1.3rem] mr:text-left lr:text-right">
-            all good designs begin with research. before <span />
-            any website can be developed, we will need <span /> to better
-            understand your business and <span /> your users. our goal is to
-            eliminate <span />
-            “opinion-driven” designs, and to create a <span /> research-based
-            design that keeps your <span /> users needs in mind. <br />
+        {/* Mobile */}
+
+        <div className="px-2 sm:hidden py-[2rem]">
+          <ul className="flex justify-center">
+            <li className="m-2 mid:m-8 w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={mag} width="85" height="85" />
+                <h1 className="text-sm 2xx:text-lg py-8 mr:text-2xl">
+                  UX research
+                </h1>
+                <h4 className="sxx:py-4 text-sm sxx:text-md">
+                  competitive analysis, surveys, user interviews, usability
+                  testing
+                </h4>
+              </div>
+            </li>
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={design} width="85" height="85" />
+                <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">
+                  UX/UI Design
+                </h1>
+                <h4 className="sxx:py-4 text-sm sxx:text-md">
+                  website, mobile applications, user interface
+                </h4>
+              </div>
+            </li>
+          </ul>
+          <ul className="flex justify-center">
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={branding} width="85" height="85" />
+                <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">
+                  Branding
+                </h1>
+                <h4 className="sxx:py-4 text-sm sxx:text-md">
+                  logo design, brand guidelines, positioning
+                </h4>
+              </div>
+            </li>
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={dev} width="85" height="85" />
+                <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">
+                  Development
+                </h1>
+                <h4 className="sxx:py-4 text-sm sxx:text-md">
+                  css, html javascript, react, nextjs
+                </h4>
+              </div>
+            </li>
+          </ul>
+          <ul className="flex justify-center">
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={seo} width="85" height="85" />
+                <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">SEO</h1>
+                <h4 className="sxx:py-4 text-sm sxx:text-md">
+                  keyword research, location pages, GMB
+                </h4>
+              </div>
+            </li>
+            <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
+              <div className="text-center p-2 lgr:p-6">
+                <Image src={social} width="85" height="85" />
+                <h1 className="text-sm 2xx:text-lg mr:text-2xl py-4 xs:py-8">
+                  Social Media Management
+                </h1>
+                <h4 className="sxx:py-4 text-sm sxx:text-md">
+                  advertisement, messaging, moderation, engagement
+                </h4>
+              </div>
+            </li>
+          </ul>
+          <h4 className="text-center text-3xl pt-4">
+            find what you're looking for?
           </h4>
-        </div>
-        <div className="mr:w-[25rem] mr:h-[15rem] lr:w-[32.688rem] lr:h-[13.813rem] border-4 border-[#1E1E1F] bg-[#88EB8C] drop-shadow-[5px_4px_0px_rgb(30,30,31)] mb-[4rem]">
-          <div className="h-[3.75rem] border-b-4 border-[#1E1E1F] bg-white m-auto flex items-center">
-            <div className="w-[1.125rem] h-[1.125rem] bg-[#88EB8C] rounded-full border-2 border-[#1E1E1F] ml-3" />
-            <div className="w-[1.125rem] h-[1.125rem] bg-[#88EBBC] rounded-full border-2 border-[#1E1E1F] ml-1" />
-            <div className="w-[1.125rem] h-[1.125rem] bg-[#88EBBC] rounded-full border-2 border-[#1E1E1F] ml-1" />
+          <div className="flex w-full justify-center">
+            <div className="button-3 w-[8rem] mb-11">
+              <Link href="#contact">contact us</Link>
+            </div>
           </div>
-          <div className="place-items-center text-center mt-2">
-            <h1 className="text-4xl">development</h1>
-            <h4 className="text-[1.3rem]">
-              from <b>front-end</b> using ReactJS and <br /> NextJS, to{" "}
-              <b>back-end </b>
-              using Python <br />
-              and nodeJS, we got your back.
-            </h4>
-          </div>
-        </div>
-        <div className="lr:w-[30.625rem]">
-          <h4 className="text-[1.3rem] lr:text-right">
-            <br />
-            <br />
-            from ecommerce, to corporate websites, to <span /> local shops, we
-            can develop custom, <span /> modern, cutting edge website designs
-            for <span />
-            any ambitious business.
-          </h4>
         </div>
       </div>
     </div>
