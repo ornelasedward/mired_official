@@ -60,7 +60,9 @@ const Services = () => {
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
                 <Image src={seo} width="85" height="85" />
-                <h1 className="text-lg mr:text-2xl py-8">SEO</h1>
+                <h1 className="text-lg mr:text-2xl py-4">
+                  Search Engine Optimization
+                </h1>
                 <h4 className="py-4">keyword research, location pages, GMB</h4>
               </div>
             </li>
@@ -76,12 +78,14 @@ const Services = () => {
               </div>
             </li>
           </ul>
-          <h4 className="text-center text-3xl pt-4">
-            find what you&apos;re looking for?
-          </h4>
-          <div className="flex w-full justify-center mb-11">
-            <div className="button-3 w-[8rem]">
-              <Link href="#contact">contact us</Link>
+          <div className="my-11">
+            <h4 className="text-center text-3xl pt-4">
+              find what you&apos;re looking for?
+            </h4>
+            <div className="flex w-full justify-center">
+              <div className="button-3 w-[8rem]">
+                <Link href="#contact">contact us</Link>
+              </div>
             </div>
           </div>
         </div>
@@ -142,7 +146,9 @@ const Services = () => {
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
                 <Image src={seo} width="85" height="85" />
-                <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">SEO</h1>
+                <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">
+                  Search Engine Optimization
+                </h1>
                 <h4 className="sxx:py-4 text-sm sxx:text-md">
                   keyword research, location pages, GMB
                 </h4>
@@ -160,12 +166,14 @@ const Services = () => {
               </div>
             </li>
           </ul>
-          <h4 className="text-center text-3xl pt-4">
-            find what you&apos;re looking for?
-          </h4>
-          <div className="flex w-full justify-center">
-            <div className="button-3 w-[8rem] mb-11">
-              <Link href="#contact">contact us</Link>
+          <div className="my-11">
+            <h4 className="text-center text-3xl pt-4">
+              find what you&apos;re looking for?
+            </h4>
+            <div className="flex w-full justify-center">
+              <div className="button-3 w-[8rem]">
+                <Link href="#contact">contact us</Link>
+              </div>
             </div>
           </div>
         </div>
