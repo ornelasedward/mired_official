@@ -146,7 +146,7 @@ const Services = () => {
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
                 <Image src={seo} width="85" height="85" />
-                <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">
+                <h1 className="text-sm 2xx:text-lg mr:text-2xl py-4 xs:py-8">
                   Search Engine Optimization
                 </h1>
                 <h4 className="sxx:py-4 text-sm sxx:text-md">
