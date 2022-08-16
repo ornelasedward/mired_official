@@ -7,6 +7,8 @@ import Laptop2 from "../assets/laptop2.png";
 import Frame1 from "../assets/Frame1.png";
 import group1 from "../assets/group1.png";
 import group2 from "../assets/group2.png";
+import star from "../assets/star.png";
+import espanol from "../assets/espanol.png";
 
 const Hero = () => {
   return (
@@ -65,6 +67,30 @@ const Hero = () => {
       <div className="max-w-[1380px] m-auto">
         <div className="static pr-[2rem] pb-[16rem] mt-[-25rem] 3xs:hidden xxxl:block">
           <Image src={Arrow} />
+        </div>
+      </div>
+      <div className="hidden sm:block lg:max-w-[550px] lr:max-w-[700px] m-auto">
+        <div className="absolute animate-spin sm:mt-[-50rem] mid:ml-[5rem] mid:mt-[-50rem] lg:mt-[-16rem] lg:ml-[-4.7rem]">
+          <Image src={star} />
+        </div>
+        <div className="absolute sm:mt-[-44rem] sm:ml-[3.8rem] mid:ml-[8.7rem] mid:mt-[-44rem] lg:mt-[-10rem] lg:ml-[-1rem]">
+          <Image src={espanol} width="85" />
+        </div>
+      </div>
+      <div className="hidden xs:block sm:hidden">
+        <div className="absolute animate-spin xs:mt-[-38rem]">
+          <Image src={star} width="150" height="150" />
+        </div>
+        <div className="absolute xs:mt-[-33.7rem] xs:ml-[2.7rem]">
+          <Image src={espanol} width="60" height="19" />
+        </div>
+      </div>
+      <div className="xs:hidden block">
+        <div className="absolute animate-spin mt-[-22rem]">
+          <Image src={star} width="100" height="100" />
+        </div>
+        <div className="absolute mt-[-19.3rem] ml-[1.9rem]">
+          <Image src={espanol} width="38" height="12.6" />
         </div>
       </div>
     </div>
