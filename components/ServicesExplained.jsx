@@ -1,5 +1,6 @@
 import React from "react";
 import { Controller, Scene } from "react-scrollmagic";
+
 import Link from "next/link";
 
 const ServicesExplained = () => {
