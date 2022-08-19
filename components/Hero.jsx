@@ -89,7 +89,7 @@ const Hero = () => {
         <div className="absolute animate-spin mt-[-22rem]">
           <Image src={star} width="100" height="100" />
         </div>
-        <div className="absolute mt-[-19.3rem] ml-[1.9rem]">
+        <div className="absolute mt-[-19.4rem] ml-[2rem]">
           <Image src={espanol} width="38" height="12.6" />
         </div>
       </div>

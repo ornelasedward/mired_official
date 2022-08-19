@@ -251,6 +251,46 @@ p {
   transform: translate(2px, 2px);
 }
 
+.button-4 {
+  appearance: button;
+  background-image: none;
+  border: 4px solid #1f1f1f;
+  box-shadow: #1f1f1f 4px 4px 0 0, #1f1f1f 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  cursor: pointer;
+  font-family: "Karla", sans-serif;
+  font-size: 1.05rem;
+  line-height: 2rem;
+  padding: calc(0.1rem - 0px) calc(0.5rem - 1px);
+  font-weight: 800;
+  overflow: visible;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-4:focus {
+  text-decoration: none;
+}
+
+.button-4:hover {
+  text-decoration: none;
+}
+
+.button-4:active {
+  box-shadow: rgba(0, 0, 0, 0) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-4:not([disabled]):active {
+  box-shadow: 2px 2px 0 0, #1f1f1f 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
 /* === Submit Button ==== */
 
 .submit {

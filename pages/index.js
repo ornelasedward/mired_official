@@ -23,6 +23,7 @@ export default function Home() {
       <Icons />
       <Services />
       <Qoute />
+      <ServicesExplained />
       <Portfolio />
       <Info />
       <Contact />

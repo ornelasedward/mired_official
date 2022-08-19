@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\ornel\.node\corepack\yarn\1.22.15\bin\yarn.js add aos
+  C:\Program Files\nodejs\node.exe C:\Users\ornel\.node\corepack\yarn\1.22.15\bin\yarn.js add react-scrollmagic
 
 PATH: 
   C:\Users\ornel\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ornel\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ornel\miniconda3;C:\Users\ornel\miniconda3\Library\mingw-w64\bin;C:\Users\ornel\miniconda3\Library\usr\bin;C:\Users\ornel\miniconda3\Library\bin;C:\Users\ornel\miniconda3\Scripts;C:\Users\ornel\AppData\Local\Programs\Python\Python310;C:\Users\ornel\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\ornel\AppData\Local\Microsoft\WindowsApps;C:\Users\ornel\AppData\Local\Programs\Microsoft VS Code\bin;C:\coding\Flutter\bin;C:\Program Files\Android\tools;C:\Program Files\Android\platform-tools;C:\Users\ornel\AppData\Roaming\npm;%PyCharm Community Edition%;C:\Users\ornel\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\coding\nextjs\mired_official\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+  Error: EPERM: operation not permitted, unlink 'C:\coding\nextjs\mired_app\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
 
 npm manifest: 
   {
