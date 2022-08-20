@@ -70,7 +70,7 @@ const ServicesExplained = () => {
       <div className="md:hidden bg-[#F7BF09] py-[6rem] border-t-4 border-black">
         <Controller>
           <Scene duration={300} pin={true} enabled={true} offset={190}>
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
               <div className="h-[12rem] w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                 <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#93C2EA] m-auto flex items-center">
                   <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-3" />
@@ -84,23 +84,25 @@ const ServicesExplained = () => {
               </div>
             </div>
           </Scene>
-          <div className="bg-[#F7BF09]  justify-around items-center">
-            <p className="font-semibold text-lg md:hidden text-center py-[3rem] mx-5">
-              all good designs begin with research. before any product can be
-              developed, we will need to better understand your business and
-              your users. we execute this by creating a competitive analysis,
-              interviewing, and/or administering surveys.
-              <br /> <br />
-              our goal is to eliminate “opinion-driven” designs, and to generate
-              a research-based design that creates the <span />
-              <b>best product for your users.</b>
-            </p>
-            <div className="w-[120px] m-auto">
-              <div className="button-4 text-center bg-[#93C2EA]">
-                <Link href="#contact">Learn more</Link>
+          <Scene>
+            <div className="bg-[#F7BF09]  justify-around items-center">
+              <p className="font-semibold text-lg md:hidden text-center py-[3rem] mx-5">
+                all good designs begin with research. before any product can be
+                developed, we will need to better understand your business and
+                your users. we execute this by creating a competitive analysis,
+                interviewing, and/or administering surveys.
+                <br /> <br />
+                our goal is to eliminate “opinion-driven” designs, and to
+                generate a research-based design that creates the <span />
+                <b>best product for your users.</b>
+              </p>
+              <div className="w-[120px] m-auto">
+                <div className="button-4 text-center bg-[#93C2EA]">
+                  <Link href="#contact">Learn more</Link>
+                </div>
               </div>
             </div>
-          </div>
+          </Scene>
         </Controller>
       </div>
 
