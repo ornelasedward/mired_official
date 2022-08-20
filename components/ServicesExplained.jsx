@@ -84,8 +84,7 @@ const ServicesExplained = () => {
               </div>
             </div>
           </Scene>
-
-          <div className="bg-[#F7BF09]  justify-around items-center mt-[-20.2rem]">
+          <div className="bg-[#F7BF09]  justify-around items-center">
             <p className="font-semibold text-lg md:hidden text-center py-[3rem] mx-5">
               all good designs begin with research. before any product can be
               developed, we will need to better understand your business and
