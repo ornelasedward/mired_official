@@ -181,7 +181,7 @@ const ServicesExplained = () => {
             </div>
           </Scene>
 
-          <div className="bg-[#FFA6CE]  justify-around items-center mt-[-20.2rem]">
+          <div className="bg-[#FFA6CE]  justify-around items-center">
             <p className="font-semibold text-lg md:hidden text-center py-[3rem] mx-5">
               the days of just having a business is over. you need a website.
               and not just any website; a modern, cutting-edge website. you have
@@ -280,7 +280,7 @@ const ServicesExplained = () => {
             </div>
           </Scene>
 
-          <div className="bg-[#F4940B]  justify-around items-center mt-[-20.2rem]">
+          <div className="bg-[#F4940B]  justify-around items-center">
             <p className="font-semibold text-lg md:hidden text-center py-[3rem] mx-5">
               you can’t just settle for cookie-cutter verbiage on your website.
               what is it that your users need? we’ll conduct an seo audit to see
@@ -400,7 +400,7 @@ const ServicesExplained = () => {
             </div>
           </Scene>
 
-          <div className="bg-[#92C3EA]  justify-around items-center mt-[-20.2rem]">
+          <div className="bg-[#92C3EA]  justify-around items-center">
             <p className="font-semibold text-lg md:hidden text-center py-[3rem] mx-5">
               57% of Americans won’t recommend a business with poorly designed
               mobile websites. don’t limit yourself to only desktop users. we
@@ -506,7 +506,7 @@ const ServicesExplained = () => {
             </div>
           </Scene>
 
-          <div className="bg-[#D4B0FE]  justify-around items-center mt-[-20.2rem]">
+          <div className="bg-[#D4B0FE]  justify-around items-center">
             <p className="font-semibold text-lg md:hidden text-center py-[3rem] mx-5">
               lets face it; advertising and cold-calling just aren’t the move
               anymore. were living in a new age for getting your business out
@@ -611,7 +611,7 @@ const ServicesExplained = () => {
             </div>
           </Scene>
 
-          <div className="bg-[#89EA8C]  justify-around items-center mt-[-20.2rem]">
+          <div className="bg-[#89EA8C]  justify-around items-center">
             <p className="font-semibold text-lg md:hidden text-center py-[3rem] mx-5">
               if you’re not actively updating your business’ social media
               accounts, then you’re missing out on 72% of potential customers.
