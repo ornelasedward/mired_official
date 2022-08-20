@@ -9,9 +9,9 @@ const ServicesExplained = () => {
       {/* Desktop 1 */}
       <div className="hidden md:block">
         <Controller>
-          <div className="h-[150vh] flex">
+          <div className="h-[150vh] flex bg-[#F88170] border-t-4 border-black">
             <Scene duration={442} pin={true} enabled={true} offset={400}>
-              <div className="bg-[#F88170] w-1/2 h-screen flex justify-center items-center border-r-4 border-t-4 border-black">
+              <div className="bg-[#F88170] w-1/2 h-screen flex justify-center items-center">
                 <div className="">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#93C2EA] m-auto flex items-center">
@@ -29,8 +29,8 @@ const ServicesExplained = () => {
             </Scene>
 
             <div className="w-1/2 h-screen">
-              <div className="bg-[#F7BF09] h-[50vh] flex flex-col justify-around items-center border-t-4 border-black"></div>
-              <div className="bg-[#F7BF09] h-[100vh] flex flex-col justify-around items-center">
+              <div className="bg-[#F7BF09] h-[50vh] flex flex-col justify-around items-center border-l-4 border-black"></div>
+              <div className="bg-[#F7BF09] h-[100vh] flex flex-col justify-around items-center border-l-4 border-black">
                 <p className="font-semibold hidden md:block sm:text-md le:text-lg text-right le:m-11">
                   all <em>good</em> designs begin with research. before <br />{" "}
                   any product can be developed, we will need <br /> to better
@@ -107,11 +107,11 @@ const ServicesExplained = () => {
       </div>
 
       {/* Desktop 2 */}
-      <div className="hidden md:block">
+      <div className="hidden md:block bg-[#93C2EA] border-t-4 border-black">
         <Controller>
           <div className="h-[150vh] flex">
             <Scene duration={442} pin={true} enabled={true} offset={400}>
-              <div className="bg-[#93C2EA] w-1/2 h-screen flex justify-center items-center border-r-4 border-t-4 border-black">
+              <div className="bg-[#93C2EA] w-1/2 h-screen flex justify-center items-center">
                 <div className="">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#89EB8D] m-auto flex items-center">
@@ -129,8 +129,8 @@ const ServicesExplained = () => {
             </Scene>
 
             <div className="w-1/2 h-screen">
-              <div className="bg-[#FFA6CE] h-[50vh] flex flex-col justify-around items-center border-t-4 border-black"></div>
-              <div className="bg-[#FFA6CE] h-[100vh] flex flex-col justify-around items-center">
+              <div className="bg-[#FFA6CE] h-[50vh] flex flex-col justify-around items-center border-t-4 border-l-4 border-black"></div>
+              <div className="bg-[#FFA6CE] h-[100vh] flex flex-col justify-around items-center border-l-4 border-black">
                 <p className="font-semibold hidden md:block sm:text-md le:text-lg text-right le:m-11">
                   the days of just having a business is over.
                   <br /> you <b>need</b> a website. and not just any
@@ -205,7 +205,7 @@ const ServicesExplained = () => {
       {/* Desktop 3 */}
       <div className="hidden md:block">
         <Controller>
-          <div className="h-[150vh] flex">
+          <div className="h-[150vh] flex bg-[#F5950B] border-t-4 border-black">
             <Scene>
               <div className="w-1/2 h-screen">
                 <div className="bg-[#F9CAC3] h-[50vh] flex flex-col justify-around items-center border-r-4 border-t-4 border-black"></div>
@@ -242,7 +242,7 @@ const ServicesExplained = () => {
               </div>
             </Scene>
             <Scene duration={442} pin={true} enabled={true} offset={400}>
-              <div className="bg-[#F5950B] w-1/2 h-screen flex justify-center items-center border-t-4 border-black">
+              <div className="bg-[#F5950B] w-1/2 h-screen flex justify-center items-center">
                 <div className="">
                   <div className="m-11 le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#C1B4FB] m-auto flex items-center">
@@ -305,7 +305,7 @@ const ServicesExplained = () => {
       {/* Desktop 4 */}
       <div className="hidden md:block">
         <Controller>
-          <div className="h-[150vh] flex">
+          <div className="h-[150vh] flex bg-[#89EA8C] border-t-4 border-black">
             <Scene>
               <div className="w-1/2 h-screen">
                 <div className="bg-[#92C3EA] h-[50vh] flex flex-col justify-around items-center border-r-4 border-t-4 border-black"></div>
@@ -362,7 +362,7 @@ const ServicesExplained = () => {
               </div>
             </Scene>
             <Scene duration={442} pin={true} enabled={true} offset={400}>
-              <div className="bg-[#89EA8C] w-1/2 h-screen flex justify-center items-center border-t-4 border-black">
+              <div className="bg-[#89EA8C] w-1/2 h-screen flex justify-center items-center">
                 <div className="">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#FEABF8] m-auto flex items-center">
@@ -427,9 +427,9 @@ const ServicesExplained = () => {
       {/* Desktop 5*/}
       <div className="hidden md:block">
         <Controller>
-          <div className="h-[150vh] flex">
+          <div className="h-[150vh] flex bg-[#EBC30E] border-t-4 border-black">
             <Scene duration={442} pin={true} enabled={true} offset={400}>
-              <div className="bg-[#EBC30E] w-1/2 h-screen flex justify-center items-center border-r-4 border-t-4 border-black">
+              <div className="bg-[#EBC30E] w-1/2 h-screen flex justify-center items-center border-r-4  border-black">
                 <div className="">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#EA9293] m-auto flex items-center">
@@ -533,9 +533,9 @@ const ServicesExplained = () => {
       {/* Desktop 6 */}
       <div className="hidden md:block">
         <Controller>
-          <div className="h-[150vh] flex">
+          <div className="h-[150vh] flex bg-[#F88170] border-t-4 border-b-4 border-black">
             <Scene duration={442} pin={true} enabled={true} offset={400}>
-              <div className="bg-[#F88170] w-1/2 h-screen flex justify-center items-center border-r-4 border-b-4 border-t-4 border-black">
+              <div className="bg-[#F88170] w-1/2 h-screen flex justify-center items-center ">
                 <div className="">
                   <div className="m-11 le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#5DE6D6] m-auto flex items-center">
