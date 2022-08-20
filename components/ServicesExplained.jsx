@@ -553,8 +553,8 @@ const ServicesExplained = () => {
             </Scene>
 
             <div className="w-1/2 h-screen">
-              <div className="bg-[#92C6F8] h-[50vh] flex flex-col justify-around items-center border-t-4 border-black"></div>
-              <div className="bg-[#92C6F8] h-[100vh] flex flex-col justify-around items-center border-b-4 border-black">
+              <div className="bg-[#92C6F8] h-[50vh] flex flex-col justify-around items-center border-t-4 border-l-4 border-black"></div>
+              <div className="bg-[#92C6F8] h-[100vh] flex flex-col justify-around items-center border-b-4 border-l-4 border-black">
                 <p className="font-semibold hidden md:block sm:text-md le:text-lg text-right le:m-11">
                   if you’re not actively updating your
                   <br /> business social media accounts, then
