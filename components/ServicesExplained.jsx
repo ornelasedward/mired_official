@@ -168,7 +168,7 @@ const ServicesExplained = () => {
       <div className="md:hidden bg-[#FFA6CE] py-[6rem] border-t-4 border-black">
         <Controller>
           <Scene duration={300} pin={true} enabled={true} offset={190}>
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
               <div className="h-[12rem] w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                 <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#89EA8C] m-auto flex items-center">
                   <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-3" />
@@ -267,7 +267,7 @@ const ServicesExplained = () => {
       <div className="md:hidden bg-[#F4940B] py-[6rem] border-t-4 border-black">
         <Controller>
           <Scene duration={300} pin={true} enabled={true} offset={190}>
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
               <div className="h-[12rem] w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                 <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#5DE7D7] m-auto flex items-center">
                   <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-3" />
@@ -387,7 +387,7 @@ const ServicesExplained = () => {
       <div className="md:hidden bg-[#92C3EA] py-[6rem] border-t-4 border-black">
         <Controller>
           <Scene duration={300} pin={true} enabled={true} offset={190}>
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
               <div className="h-[12rem] w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                 <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#FEAAF9] m-auto flex items-center">
                   <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-3" />
@@ -493,7 +493,7 @@ const ServicesExplained = () => {
       <div className="md:hidden bg-[#D4B0FE] py-[6rem] border-t-4 border-black">
         <Controller>
           <Scene duration={300} pin={true} enabled={true} offset={190}>
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
               <div className="h-[12rem] w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                 <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#EB9292] m-auto flex items-center">
                   <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-3" />
@@ -598,7 +598,7 @@ const ServicesExplained = () => {
       <div className="md:hidden bg-[#89EA8C] py-[6rem] border-t-4 border-black">
         <Controller>
           <Scene duration={300} pin={true} enabled={true} offset={190}>
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
               <div className="h-[12rem] w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                 <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#FDDD14] m-auto flex items-center">
                   <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-3" />
