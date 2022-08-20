@@ -2,7 +2,7 @@ import React from "react";
 
 const Qoute = () => {
   return (
-    <div className="py-[6rem]">
+    <div className="py-[6rem] bg-[#F8CAC2]">
       <h1 className="text-center text-4xl font-normal tracking-wide leading-[3rem]">
         “it is the ultimate luxury to combine <b>passion</b> and{" "}
         <b>contribution</b>.
