@@ -12,9 +12,7 @@ const Services = () => {
   return (
     <div id="services" className="bg-[#92C2EB]">
       <div className="max-w-[1240px] m-auto">
-        <h1 className="text-center text-3xl pt-11 sm:pt-[5rem]">
-          our services
-        </h1>
+        <h1 className="text-center text-3xl pt-11 sm:pt-[5rem]">what we do!</h1>
 
         {/* Desktop*/}
 
