@@ -9,6 +9,7 @@ import Portfolio from "../components/Portfolio";
 import Icons from "../components/Icons";
 import Qoute from "../components/Qoute";
 import ServicesExplained from "../components/ServicesExplained";
+import About from "../components/About";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Bubbles />
       <Hero />
       <Icons />
+      <About />
       <Services />
       <Qoute />
       <ServicesExplained />
