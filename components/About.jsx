@@ -6,7 +6,7 @@ const About = () => {
     <div className="container  max-w-[1240px] m-auto">
       <div className="p-4">
         <div className="text-3xl border-2 border-black mx-11">
-          <h1>Hi, we're Mired</h1>
+          <h1>Hi, we&apos;re Mired</h1>
           <h4>Mir•ed</h4>
         </div>
 
@@ -38,7 +38,7 @@ const About = () => {
         <div className="p-4">
           <h1 className="text-2xl mx-8">
             You need a small, smart, and flexible team to push your brand to the
-            next level and work as an extension of your team. Don't you?
+            next level and work as an extension of your team. Don&apos;t you?
           </h1>
         </div>
         <div className="border-2 border-black">
