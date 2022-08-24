@@ -4,7 +4,9 @@ import Image from "next/image";
 import Line1 from "../assets/line 1.png";
 import Line2 from "../assets/line 2.png";
 import Art from "../assets/art.png";
+import Art2 from "../assets/art2.png";
 import Market from "../assets/market.png";
+import Market2 from "../assets/market2.png";
 
 const About = () => {
   return (
@@ -27,19 +29,19 @@ const About = () => {
             <div className="flex-grow border-t-2 border-black"></div>
           </div>
 
-          <ul className="md:flex md:px-6 p-2">
-            <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
-              <div className="hidden">
-                <Image src={Line1} />
-              </div>
-              <div className="text-center p-2">
+          <ul className="md:flex md:px-6">
+            <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mb-4 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
+              <div className="text-center hidden md:block">
                 <Image src={Art} />
               </div>
-              <div className="p-2">
+              <div className="text-center md:hidden pt-6">
+                <Image src={Art2} />
+              </div>
+              <div className="p-2 sxx:p-4">
                 <h1 className="text-center text-lg xrs:text-2xl md:text-lg mr:text-2xl lr:text-4xl le:p-2">
                   vamp up your site!
                 </h1>
-                <h4 className="text-center xxs:text-left xrs:text-lg md:text-md le:text-lg xrs:px-6 md:px-0 le:px-5">
+                <h4 className="text-center xxs:text-left text-sm xrs:text-lg md:text-md le:text-lg xrs:px-6 md:px-0 le:px-5">
                   in the new age of technology, your website is the first
                   impression you make with your users. we make sure it&apos;s a
                   good one by helping passionate brick-and-mortar businesses
@@ -48,19 +50,19 @@ const About = () => {
               </div>
             </li>
             <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
-              <div className="hidden">
-                <Image src={Line2} />
-              </div>
-
-              <div className="text-center p-2">
+              <div className="text-center pt-6 hidden md:block">
                 <Image src={Market} />
               </div>
 
-              <div className="p-2">
+              <div className="text-center pt-6 md:hidden">
+                <Image src={Market2} />
+              </div>
+
+              <div className="p-4 md:mt-[2rem]">
                 <h1 className="text-center text-lg xrs:text-2xl md:text-lg mr:text-2xl lr:text-4xl le:p-2">
                   market your business
                 </h1>
-                <h4 className="text-center xxs:text-left xrs:text-lg md:text-md le:text-lg xrs:px-6 md:px-0 le:px-5">
+                <h4 className="text-center xxs:text-left text-sm sxx:text-md xrs:text-lg md:text-md le:text-lg xrs:px-6 md:px-0 le:px-5">
                   already have a great website? no problemo! we specialize in
                   paid social, email/sms marketing, influencer marketing
                   strategies, seo, and content creation to ensure your business
