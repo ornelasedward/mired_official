@@ -32,7 +32,7 @@ const About = () => {
               <div className="hidden md:block mt-2">
                 <Image src={Line1} />
               </div>
-              <div className="text-center absolute w-full">
+              <div className="">
                 <Image src={Art} />
               </div>
               <div className="p-2">
@@ -52,7 +52,7 @@ const About = () => {
                 <Image src={Line2} />
               </div>
 
-              <div className="text-center absolute w-full">
+              <div className="">
                 <Image src={Market} />
               </div>
 
