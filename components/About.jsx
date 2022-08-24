@@ -56,7 +56,7 @@ const About = () => {
                 <Image src={Market} />
               </div>
 
-              <div className="absolute p-2 xxs:p-7 xrs:p-6 xrs:inset-x-0 bottom-0">
+              <div className="p-2">
                 <h1 className="text-center text-lg xrs:text-2xl md:text-lg mr:text-2xl lr:text-4xl le:p-2">
                   market your business
                 </h1>
