@@ -29,10 +29,10 @@ const About = () => {
 
           <ul className="md:flex md:px-6">
             <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)] overflow-hidden">
-              <div className="hidden md:block mt-2">
+              <div className="hidden">
                 <Image src={Line1} />
               </div>
-              <div className="">
+              <div className="text-center p-2">
                 <Image src={Art} />
               </div>
               <div className="p-2">
@@ -48,11 +48,11 @@ const About = () => {
               </div>
             </li>
             <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)] overflow-hidden">
-              <div className="hidden md:block mt-2">
+              <div className="hidden">
                 <Image src={Line2} />
               </div>
 
-              <div className="">
+              <div className="text-center p-2">
                 <Image src={Market} />
               </div>
 
