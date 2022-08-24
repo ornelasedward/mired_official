@@ -1,8 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Line1 from "../assets/line 1.png";
-import Line2 from "../assets/line 2.png";
 import Art from "../assets/art.png";
 import Art2 from "../assets/art2.png";
 import Market from "../assets/market.png";
@@ -31,7 +29,7 @@ const About = () => {
 
           <ul className="md:flex md:px-6">
             <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mb-4 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
-              <div className="text-center hidden md:block">
+              <div className="text-center hidden md:flex ">
                 <Image src={Art} />
               </div>
               <div className="text-center md:hidden pt-6">
@@ -50,7 +48,7 @@ const About = () => {
               </div>
             </li>
             <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
-              <div className="text-center pt-6 hidden md:block">
+              <div className="text-center pt-6 hidden md:flex">
                 <Image src={Market} />
               </div>
 

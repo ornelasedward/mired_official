@@ -10,6 +10,7 @@ import Icons from "../components/Icons";
 import Qoute from "../components/Qoute";
 import ServicesExplained from "../components/ServicesExplained";
 import About from "../components/About";
+import Whyus from "../components/Whyus";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Hero />
       <Icons />
       <About />
+      <Whyus />
       <Services />
       <Qoute />
       <ServicesExplained />
