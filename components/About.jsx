@@ -9,7 +9,7 @@ import Market from "../assets/market.png";
 const About = () => {
   return (
     <div className="bg-[#63B4F7]">
-      <div className="container  max-w-[1240px] m-auto">
+      <div className="max-w-[1240px] m-auto">
         <div className="p-4 py-[5rem]">
           <div className="text-4xl lg:mx-[4rem] mb-11">
             <h1>
@@ -32,7 +32,7 @@ const About = () => {
               <div className="hidden md:block mt-2">
                 <Image src={Line1} />
               </div>
-              <div className="absolute xrs:inset-y-2 md:left-1/4 xrs:left-1/3 xxs:left-1/4 w-full sxx:left-1/4 left-[4rem]">
+              <div className="text-center absolute xrs:inset-y-2 w-full">
                 <Image src={Art} />
               </div>
               <div className="absolute p-2 xxs:p-7 xrs:p-6 xrs:inset-x-0 bottom-0">
