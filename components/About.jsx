@@ -32,10 +32,10 @@ const About = () => {
               <div className="hidden md:block mt-2">
                 <Image src={Line1} />
               </div>
-              <div className="text-center absolute xrs:inset-y-2 w-full">
+              <div className="text-center absolute w-full">
                 <Image src={Art} />
               </div>
-              <div className="p-2 ">
+              <div className="p-2">
                 <h1 className="text-center text-lg xrs:text-2xl md:text-lg mr:text-2xl lr:text-4xl le:p-2">
                   vamp up your site!
                 </h1>
@@ -52,7 +52,7 @@ const About = () => {
                 <Image src={Line2} />
               </div>
 
-              <div className="text-center absolute xrs:inset-y-2 w-full">
+              <div className="text-center absolute w-full">
                 <Image src={Market} />
               </div>
 
