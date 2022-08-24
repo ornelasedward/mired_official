@@ -22,7 +22,6 @@ export default function Home() {
       <Bubbles />
       <Hero />
       <Icons />
-      <About />
       <Services />
       <Qoute />
       <ServicesExplained />
