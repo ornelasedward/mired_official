@@ -165,7 +165,7 @@ const ServicesExplained = () => {
 
       {/* Mobile 2*/}
 
-      <div className="md:hidden bg-[#FFA6CE] py-[6rem] border-t-4 border-black">
+      <div className="md:hidden bg-[#FFA6CE] py-[6rem] ">
         <Controller>
           <Scene duration={300} pin={true} enabled={true} offset={190}>
             <div className="flex justify-center items-center p-4">
@@ -309,7 +309,7 @@ const ServicesExplained = () => {
             <Scene>
               <div className="w-1/2 h-screen">
                 <div className="bg-[#92C3EA] h-[50vh] flex flex-col justify-around items-center border-r-4 border-t-4 border-black"></div>
-                <div className="bg-[#92C3EA] h-[100vh] flex flex-col justify-around items-center border-r-4 border-black">
+                <div className="bg-[#92C3EA] h-[100vh] flex flex-col justify-around items-center border-r-4 border-b-4 border-black">
                   <p className="font-semibold hidden md:block sm:text-md le:text-lg text-left le:m-11">
                     57% of Americans won’t recommend a<br /> business with
                     poorly designed mobile
