@@ -56,7 +56,7 @@ const ServicesExplained = () => {
                   <b>best product for your users.</b>
                 </p>
 
-                <div className="button-4 mt-[-30rem] ml-[13rem] le:ml-[16rem] bg-[#93C2EA]">
+                <div className="button-4 mt-[-30rem] ml-[13rem] le:ml-[15rem] bg-[#93C2EA]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const ServicesExplained = () => {
                   stand out amongst the rest.
                 </p>
 
-                <div className="button-4 mt-[-30rem] ml-[13rem] le:ml-[16rem] bg-[#89EB8D]">
+                <div className="button-4 mt-[-30rem] ml-[12rem] le:ml-[15rem] bg-[#89EB8D]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>
@@ -235,7 +235,7 @@ const ServicesExplained = () => {
                     <br /> pages, and creating a google business profile.
                   </p>
 
-                  <div className="button-4 mt-[-30rem] ml-[-13rem] le:ml-[-16rem] bg-[#5DE6D6]">
+                  <div className="button-4 mt-[-30rem] ml-[-14rem] le:ml-[-17rem] bg-[#5DE6D6]">
                     <Link href="#contact">Learn more</Link>
                   </div>
                 </div>
@@ -264,7 +264,7 @@ const ServicesExplained = () => {
 
       {/* Mobile 3*/}
 
-      <div className="md:hidden bg-[#F4940B] py-[6rem] border-t-4 border-black">
+      <div className="md:hidden bg-[#F4940B] py-[6rem]">
         <Controller>
           <Scene duration={300} pin={true} enabled={true} offset={190}>
             <div className="flex justify-center items-center p-4">
@@ -305,7 +305,7 @@ const ServicesExplained = () => {
       {/* Desktop 4 */}
       <div className="hidden md:block">
         <Controller>
-          <div className="h-[150vh] flex bg-[#89EA8C] border-t-4 border-black">
+          <div className="h-[150vh] flex bg-[#89EA8C] border-t-4 border-b-4 border-black">
             <Scene>
               <div className="w-1/2 h-screen">
                 <div className="bg-[#92C3EA] h-[50vh] flex flex-col justify-around items-center border-r-4 border-t-4 border-black"></div>
@@ -355,7 +355,7 @@ const ServicesExplained = () => {
                     <br /> frameworks like <b>react</b> and <b>nextjs.</b>
                   </p>
 
-                  <div className="button-4 mt-[-25rem] ml-[-13rem] le:ml-[-16rem] bg-[#FEABF8]">
+                  <div className="button-4 mt-[-25rem] ml-[-12.5rem] le:ml-[-15.5rem] bg-[#FEABF8]">
                     <Link href="#contact">Learn more</Link>
                   </div>
                 </div>
@@ -447,7 +447,7 @@ const ServicesExplained = () => {
             </Scene>
 
             <div className="w-1/2 h-screen">
-              <div className="bg-[#D4B0FE] h-[50vh] flex flex-col justify-around items-center border-t-4 border-black"></div>
+              <div className="bg-[#D4B0FE] h-[50vh] flex flex-col justify-around items-center"></div>
               <div className="bg-[#D4B0FE] h-[100vh] flex flex-col justify-around items-center">
                 <p className="font-semibold hidden md:block sm:text-md le:text-lg text-right le:m-11">
                   lets face it; advertising and cold-calling
@@ -479,7 +479,7 @@ const ServicesExplained = () => {
                   <br /> trades. or, you can let us handle it.
                 </p>
 
-                <div className="button-4 mt-[-30rem] ml-[14rem] le:ml-[17rem] bg-[#EA9293]">
+                <div className="button-4 mt-[-30rem] ml-[12rem] le:ml-[15rem] bg-[#EA9293]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>
@@ -584,7 +584,7 @@ const ServicesExplained = () => {
                   <br /> moderaton.
                 </p>
 
-                <div className="button-4 mt-[-30rem] ml-[13rem] le:ml-[16rem] bg-[#F6BE09]">
+                <div className="button-4 mt-[-30rem] ml-[10.5rem] le:ml-[12.9rem] bg-[#F6BE09]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>
