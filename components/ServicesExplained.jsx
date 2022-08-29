@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const ServicesExplained = () => {
   return (
-    <div id="services_explained" className="overflow-hidden">
+    <div id="services_explained">
       {/* Desktop 1 */}
       <div className="hidden md:block">
         <Controller>
