@@ -31,9 +31,9 @@ const Whyus = () => {
                   <iframe
                     className="w-[366.67px] h-[200px] mid:w-[420px] mid:h-[229px] le:w-[550px] le:h-[300px] m-auto"
                     src="https://player.vimeo.com/video/744432157?h=056c136e3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="autoplay; fullscreen; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </div>
               </div>
@@ -62,9 +62,9 @@ const Whyus = () => {
               <iframe
                 className="w-full h-[237px] flex"
                 src="https://player.vimeo.com/video/744432157?h=056c136e3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                frameborder="0"
+                frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </div>
