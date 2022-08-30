@@ -71,13 +71,18 @@ const About = () => {
               </div>
             </li>
           </ul>
-          <div className="p-4 mt-11">
-            <h1 className="text-2xl mx-8">
-              You need a small, smart, and flexible team to push your brand to
-              the next level and work as an extension of your team.{" "}
-              <span className="bg-[#F7BE08] pl-1 pr-6">Don&apos;t you?</span>
-            </h1>
-          </div>
+        </div>
+      </div>
+
+      <div className="p-4 mt-11 bg-[#FFF9D8]">
+        <div className="max-w-[1240px] m-auto">
+          <h1 className="text-4xl font-normal mx-8 my-[4.5rem]">
+            You need a small, <b>smart</b>, and flexible team to push your brand
+            to the next level and work as an extension of your team.{" "}
+            <span className="bg-[#F7BE08] pl-1 pr-6">
+              <b>Don&apos;t you?</b>
+            </span>
+          </h1>
         </div>
       </div>
     </div>

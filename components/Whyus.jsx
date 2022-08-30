@@ -1,8 +1,10 @@
 import React from "react";
+import Arrow from "../assets/arrow2.png";
+import Image from "next/image";
 
 const Whyus = () => {
   return (
-    <div className="overflow-hidden flex">
+    <div className="overflow-hidden flex bg-[#F9CAC3]">
       <div className="max-w-[1240px] m-auto">
         <h1 className="text-center text-3xl m-11">why us?</h1>
 
@@ -22,6 +24,9 @@ const Whyus = () => {
                 </p>
                 <div className="border-2 border-black w-[145px] bg-black text-white mt-3 mid:ml-[8rem]">
                   <p>see our strategy</p>
+                </div>
+                <div className="text-center p-2">
+                  <Image src={Arrow} />
                 </div>
               </div>
             </div>
@@ -57,6 +62,9 @@ const Whyus = () => {
               <div className="border-2 border-black w-[145px] bg-black text-white mt-3 mid:ml-[8rem] text-center items-center justify-center">
                 <p>see our strategy</p>
               </div>
+            </div>
+            <div className="absolute w-full bottom-20 left-[-8rem] p-2 rotate-90">
+              <Image src={Arrow} />
             </div>
             <div id="aboutus" className="py-8">
               <iframe
