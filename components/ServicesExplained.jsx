@@ -31,7 +31,7 @@ const ServicesExplained = () => {
             <div className="w-1/2 h-screen">
               <div className="bg-[#F7BF09] h-[50vh] flex flex-col justify-around items-center border-l-4 border-black"></div>
               <div className="bg-[#F7BF09] h-[100vh] flex flex-col justify-around items-center border-l-4 border-black">
-                <p className="font-semibold hidden md:block sm:text-md le:text-lg text-right le:m-11">
+                <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-right le:m-11">
                   all <em>good</em> designs begin with research. before <br />{" "}
                   any product can be developed, we will need <br /> to better
                   understand your business and <br />
@@ -131,7 +131,7 @@ const ServicesExplained = () => {
             <div className="w-1/2 h-screen">
               <div className="bg-[#FFA6CE] h-[50vh] flex flex-col justify-around items-center border-t-4 border-l-4 border-black"></div>
               <div className="bg-[#FFA6CE] h-[100vh] flex flex-col justify-around items-center border-l-4 border-black">
-                <p className="font-semibold hidden md:block sm:text-md le:text-lg text-right le:m-11">
+                <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-right le:m-11">
                   the days of just having a business is over.
                   <br /> you <b>need</b> a website. and not just any
                   <br /> website; a modern, cutting-edge website.
@@ -210,7 +210,7 @@ const ServicesExplained = () => {
               <div className="w-1/2 h-screen">
                 <div className="bg-[#F9CAC3] h-[50vh] flex flex-col justify-around items-center border-r-4 border-t-4 border-black"></div>
                 <div className="bg-[#F9CAC3] h-[100vh] flex flex-col justify-around items-center border-r-4 border-black">
-                  <p className="font-semibold hidden md:block sm:text-md le:text-lg text-left le:m-11">
+                  <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-left le:m-11">
                     you can’t just settle for cookie-cutter verbiage
                     <br /> on your website. what is it that your users
                     <br /> need? we’ll conduct an seo audit to see where
@@ -310,7 +310,7 @@ const ServicesExplained = () => {
               <div className="w-1/2 h-screen">
                 <div className="bg-[#92C3EA] h-[50vh] flex flex-col justify-around items-center border-r-4 border-t-4 border-black"></div>
                 <div className="bg-[#92C3EA] h-[100vh] flex flex-col justify-around items-center border-r-4 border-b-4 border-black">
-                  <p className="font-semibold hidden md:block sm:text-md le:text-lg text-left le:m-11">
+                  <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-left le:m-11">
                     57% of Americans won’t recommend a<br /> business with
                     poorly designed mobile
                     <br /> websites.
@@ -449,7 +449,7 @@ const ServicesExplained = () => {
             <div className="w-1/2 h-screen">
               <div className="bg-[#D4B0FE] h-[50vh] flex flex-col justify-around items-center"></div>
               <div className="bg-[#D4B0FE] h-[100vh] flex flex-col justify-around items-center">
-                <p className="font-semibold hidden md:block sm:text-md le:text-lg text-right le:m-11">
+                <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-right le:m-11">
                   lets face it; advertising and cold-calling
                   <br /> just aren’t the move anymore. were living
                   <br /> in a new age for getting your business out
@@ -555,7 +555,7 @@ const ServicesExplained = () => {
             <div className="w-1/2 h-screen">
               <div className="bg-[#92C6F8] h-[50vh] flex flex-col justify-around items-center border-t-4 border-l-4 border-black"></div>
               <div className="bg-[#92C6F8] h-[100vh] flex flex-col justify-around items-center border-b-4 border-l-4 border-black">
-                <p className="font-semibold hidden md:block sm:text-md le:text-lg text-right le:m-11">
+                <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-right le:m-11">
                   if you’re not actively updating your
                   <br /> business social media accounts, then
                   <br /> you’re missing out on 72% of potential
