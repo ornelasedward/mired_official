@@ -545,7 +545,7 @@ const ServicesExplained = () => {
                     </div>
 
                     <h4 className="text-4xl font-extrabold m-[1.6rem] text-center justify-center items-center">
-                      Social Media Marketing
+                      Social Media Management
                     </h4>
                   </div>
                 </div>
@@ -607,7 +607,7 @@ const ServicesExplained = () => {
                 </div>
 
                 <h4 className="text-3xl font-extrabold m-[2.5rem] text-center justify-center items-center">
-                  Social Media Marketing
+                  Social Media Management
                 </h4>
               </div>
             </div>

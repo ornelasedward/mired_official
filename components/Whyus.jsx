@@ -26,23 +26,46 @@ const Whyus = () => {
               </div>
             </div>
             <div className="absolute h-full top-0 left-0 z-9 mt-[5.6rem] ml-[16rem] mid:mt-[7rem] mid:ml-[20rem] le:mt-[9rem] le:ml-[22rem]">
-              <div className="border-2 border-black bg-[#fff] w-[366.67px] h-[200px] mid:w-[420px] mid:h-[220px] le:w-[550px] le:h-[300px] drop-shadow-[5px_4px_0px_rgb(30,30,31)]"></div>
+              <div className="border-2 border-black bg-[#fff] w-[365px] h-[204px] mid:w-[409.4px] mid:h-[224px] le:w-[545.4px] le:h-[304px] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
+                <div id="aboutus" className="flex justify-center">
+                  <iframe
+                    className="w-[366.67px] h-[200px] mid:w-[420px] mid:h-[229px] le:w-[550px] le:h-[300px] m-auto"
+                    src="https://player.vimeo.com/video/744432157?h=056c136e3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Mobile */}
         <div className="m-4 sm:hidden">
-          <div className="border-2 border-black bg-[#fff] drop-shadow-[5px_4px_0px_rgb(30,30,31)] p-4">
-            <h4 className="text-3xl">our passion is your passion!</h4>
-            <p className="text-lg mt-4">
+          <div className="border-2 border-black bg-[#fff] drop-shadow-[5px_4px_0px_rgb(30,30,31)] p-4 mb-[5rem]">
+            <h4 className="text-3xl text-center">
+              our passion is your passion!
+            </h4>
+            <p className="text-lg mt-4 text-center">
               mired is a web development and creative marketing one-stop shop
               agency. there is no one-size-fits-all when it comes to marketing,
               and we ensure custom, individualized, effective strategies to
               scale your business.
             </p>
-            <div className="border-2 border-black w-[145px] bg-black text-white mt-3 mid:ml-[8rem]">
-              <p>see our strategy</p>
+            <div className="flex justify-center m-auto">
+              <div className="border-2 border-black w-[145px] bg-black text-white mt-3 mid:ml-[8rem] text-center items-center justify-center">
+                <p>see our strategy</p>
+              </div>
+            </div>
+            <div id="aboutus" className="py-8">
+              <iframe
+                className="w-full h-[237px] flex"
+                src="https://player.vimeo.com/video/744432157?h=056c136e3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </div>
