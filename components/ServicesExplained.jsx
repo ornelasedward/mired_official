@@ -10,7 +10,7 @@ const ServicesExplained = () => {
       <div className="hidden md:block">
         <Controller>
           <div className="h-[200vh] flex bg-[#F88170] border-t-4 border-black">
-            <Scene duration={500} pin={true} enabled={true} offset={300}>
+            <Scene duration={600} pin={true} enabled={true} offset={300}>
               <div className="bg-[#F88170] w-1/2 h-screen flex justify-center items-center">
                 <div className="">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
