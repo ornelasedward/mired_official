@@ -9,8 +9,8 @@ const ServicesExplained = () => {
       {/* Desktop 1 */}
       <div className="hidden md:block">
         <Controller>
-          <div className="h-[150vh] flex bg-[#F88170] border-t-4 border-black">
-            <Scene duration={442} pin={true} enabled={true} offset={400}>
+          <div className="h-[200vh] flex bg-[#F88170] border-t-4 border-black">
+            <Scene duration={500} pin={true} enabled={true}>
               <div className="bg-[#F88170] w-1/2 h-screen flex justify-center items-center">
                 <div className="">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
@@ -27,40 +27,41 @@ const ServicesExplained = () => {
                 </div>
               </div>
             </Scene>
+            <Scene pin={false} enabled={false}>
+              <div className="w-1/2 h-screen">
+                <div className="bg-[#F7BF09] h-[200vh] flex flex-col justify-around items-center border-l-4 border-black">
+                  <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-right le:m-11 pt-[28rem]">
+                    all <em>good</em> designs begin with research. before <br />{" "}
+                    any product can be developed, we will need <br /> to better
+                    understand your business and <br />
+                    your users. we execute this by creating a <br /> competitive
+                    analysis, interviewing, and/or <br /> administering surveys.
+                    <br /> <br />
+                    our goal is to eliminate “opinion-driven” <br /> designs,
+                    and to generate a research-based <br /> design that creates
+                    the <span />
+                    <b>
+                      best product for <br /> your users.
+                    </b>
+                  </p>
+                  <p className="font-semibold text-[0.8rem] xs:text-[0.9rem] md:hidden m-5 text-right">
+                    all good designs begin with research. before any product can
+                    be developed, we will need to better understand your
+                    business and your users. we execute this by creating a
+                    competitive analysis, interviewing, and/or administering
+                    surveys.
+                    <br /> <br />
+                    our goal is to eliminate “opinion-driven” designs, and to
+                    generate a research-based design that creates the <span />
+                    <b>best product for your users.</b>
+                  </p>
 
-            <div className="w-1/2 h-screen">
-              <div className="bg-[#F7BF09] h-[50vh] flex flex-col justify-around items-center border-l-4 border-black"></div>
-              <div className="bg-[#F7BF09] h-[100vh] flex flex-col justify-around items-center border-l-4 border-black">
-                <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-right le:m-11">
-                  all <em>good</em> designs begin with research. before <br />{" "}
-                  any product can be developed, we will need <br /> to better
-                  understand your business and <br />
-                  your users. we execute this by creating a <br /> competitive
-                  analysis, interviewing, and/or <br /> administering surveys.
-                  <br /> <br />
-                  our goal is to eliminate “opinion-driven” <br /> designs, and
-                  to generate a research-based <br /> design that creates the{" "}
-                  <span />
-                  <b>
-                    best product for <br /> your users.
-                  </b>
-                </p>
-                <p className="font-semibold text-[0.8rem] xs:text-[0.9rem] md:hidden m-5 text-right">
-                  all good designs begin with research. before any product can
-                  be developed, we will need to better understand your business
-                  and your users. we execute this by creating a competitive
-                  analysis, interviewing, and/or administering surveys.
-                  <br /> <br />
-                  our goal is to eliminate “opinion-driven” designs, and to
-                  generate a research-based design that creates the <span />
-                  <b>best product for your users.</b>
-                </p>
-
-                <div className="button-4 mt-[-30rem] ml-[13rem] le:ml-[15rem] bg-[#93C2EA]">
-                  <Link href="#contact">Learn more</Link>
+                  <div className="button-4 mt-[-30rem] ml-[13rem] le:ml-[15rem] xlr:ml-[23.5rem] bg-[#93C2EA]">
+                    <Link href="#contact">Learn more</Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Scene>
           </div>
         </Controller>
       </div>
