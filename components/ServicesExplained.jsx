@@ -10,7 +10,7 @@ const ServicesExplained = () => {
       <div className="hidden md:block">
         <Controller>
           <div className="h-[200vh] flex bg-[#F88170] border-t-4 border-black">
-            <Scene duration={500} pin={true} enabled={true}>
+            <Scene duration={500} pin={true} enabled={true} offset={300}>
               <div className="bg-[#F88170] w-1/2 h-screen flex justify-center items-center">
                 <div className="">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
@@ -30,7 +30,7 @@ const ServicesExplained = () => {
             <Scene pin={false} enabled={false}>
               <div className="w-1/2 h-screen">
                 <div className="bg-[#F7BF09] h-[200vh] flex flex-col justify-around items-center border-l-4 border-black">
-                  <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-right le:m-11 pt-[28rem]">
+                  <p className="font-semibold hidden md:block sm:text-md le:text-lg xlr:text-2xl text-right le:m-11 pt-[28rem] le:pt-[34rem]  xlr:pt-[34rem]">
                     all <em>good</em> designs begin with research. before <br />{" "}
                     any product can be developed, we will need <br /> to better
                     understand your business and <br />
