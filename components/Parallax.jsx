@@ -185,7 +185,8 @@ const parallax = () => {
                 audit to see where your current website sits in your market.
                 <br />
                 <br />
-                then, we utilize highly <em>effective and successful</em>
+                then, we utilize highly <br /> <em>effective and successful</em>
+                <br />
                 seo strategies, such as completing keyword research, ensuring
                 you’re on location search pages, and creating a google business
                 profile.
