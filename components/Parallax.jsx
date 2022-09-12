@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/Image";
+import Image from "next/image";
 import Link from "next/link";
 import Bubble from "../assets/bubble3.png";
 import Bubble1 from "../assets/bubble1.png";
