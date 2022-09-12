@@ -11,6 +11,7 @@ import Qoute from "../components/Qoute";
 import ServicesExplained from "../components/ServicesExplained";
 import About from "../components/About";
 import Whyus from "../components/Whyus";
+import Parallax from "../components/Parallax";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Whyus />
       <Services />
       <Qoute />
+      <Parallax />
       <ServicesExplained />
       <Portfolio />
       <Info />

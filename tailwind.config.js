@@ -63,6 +63,8 @@ module.exports = {
 
       xxxl: "1365px",
 
+      xxxxl: "1462px",
+
       "2xl": "1600px",
       // => @media (min-width: 1280px) {...}
 
