@@ -202,7 +202,7 @@ const parallax = () => {
             <div className="process-sticky-wrap">
               <div className="content-area-title content-left-align">
                 <div className="content-title-area auto-width-title-area">
-                  <div class="content-title-wrap left-align-content-title">
+                  <div className="content-title-wrap left-align-content-title">
                     <div className="my-[25rem] lgr:ml-9 lgg:ml-4">
                       <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                         <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#C1B4FB] m-auto flex items-center">
