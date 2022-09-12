@@ -18,7 +18,7 @@ const parallax = () => {
         <div className="process-content-area">
           <div className="process-content-wrap bg-[#F88170] border-r-4 border-black">
             <div className="process-sticky-wrap-2">
-              <div class="content-title-wrap left-align-content-title">
+              <div className="content-title-wrap left-align-content-title">
                 <div className="my-[25rem]">
                   <div className="m-auto le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#93C2EA] m-auto flex items-center">
@@ -90,7 +90,7 @@ const parallax = () => {
         <div className="process-content-area">
           <div className="process-content-wrap bg-[#93C2EA] border-r-4 border-black">
             <div className="process-sticky-wrap-2">
-              <div class="content-title-wrap left-align-content-title">
+              <div className="content-title-wrap left-align-content-title">
                 <div className="my-[25rem]">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#89EB8D] m-auto flex items-center">
@@ -153,7 +153,7 @@ const parallax = () => {
         id="parallax_services"
         className="section-content-area zero-around-spacing"
       >
-        <div class="process-content-area">
+        <div className="process-content-area">
           <div
             data-w-id="left_parallax"
             className="process-image-wrap bg-[#F9CAC3] border-r-4 border-black"
@@ -231,7 +231,7 @@ const parallax = () => {
         id="parallax_services"
         className="section-content-area zero-around-spacing"
       >
-        <div class="process-content-area">
+        <div className="process-content-area">
           <div
             data-w-id="left_parallax"
             className="process-image-wrap bg-[#92C3EA] border-r-4 border-black"
@@ -297,7 +297,7 @@ const parallax = () => {
             <div className="process-sticky-wrap">
               <div className="content-area-title content-left-align">
                 <div className="content-title-area auto-width-title-area">
-                  <div class="content-title-wrap left-align-content-title">
+                  <div className="content-title-wrap left-align-content-title">
                     <div className="my-[25rem] lgr:ml-9 lgg:ml-4">
                       <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                         <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#FEABF8] m-auto flex items-center">
@@ -327,7 +327,7 @@ const parallax = () => {
         <div className="process-content-area">
           <div className="process-content-wrap bg-[#EBC30E] border-r-4 border-black">
             <div className="process-sticky-wrap-2">
-              <div class="content-title-wrap left-align-content-title">
+              <div className="content-title-wrap left-align-content-title">
                 <div className="my-[25rem]">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#EA9293] m-auto flex items-center">
@@ -401,7 +401,7 @@ const parallax = () => {
         <div className="process-content-area border-b-4 border-black">
           <div className="process-content-wrap bg-[#F88170] border-r-4 border-black">
             <div className="process-sticky-wrap-2">
-              <div class="content-title-wrap left-align-content-title">
+              <div className="content-title-wrap left-align-content-title">
                 <div className="my-[25rem] ">
                   <div className="le:h-[12rem] le:w-[27.5rem] border-4 border-[#1E1E1F] bg-white drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                     <div className="h-[3.5rem] border-b-4 border-[#1E1E1F] bg-[#5DE6D6] m-auto flex items-center">
