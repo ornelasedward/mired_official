@@ -754,3 +754,18 @@ footer a {
     padding: 0px 0px 0px 0px;
   }
 }
+
+/* laptop animation */
+
+.layoutHidden {
+  filter: blur(1px);
+  transform: translateX(2%);
+  transition: all 1s;
+}
+
+.layoutShow {
+  filter: blur(0);
+  transform: translateX(-10%);
+  transition: all 1s;
+  transition-delay: 300ms;
+}

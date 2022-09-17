@@ -20,6 +20,8 @@ export default function Home() {
         <title>Mired</title>
         <meta name="description" content="Created by Edward Ornelas" />
         <link rel="icon" href="/favicon.ico" />
+
+        <script defer type="text/javascript" src="/static/script.js"></script>
       </Head>
       <Bubbles />
       <Hero />

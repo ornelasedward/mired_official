@@ -7,6 +7,7 @@ import Laptop2 from "../assets/laptop2.png";
 import Frame1 from "../assets/Frame1.png";
 import group1 from "../assets/group1.png";
 import group2 from "../assets/group2.png";
+import layout from "../assets/layouts2.png";
 import star from "../assets/star.png";
 import espanol from "../assets/espanol.png";
 
@@ -60,7 +61,15 @@ const Hero = () => {
             </div>
           </div>
           <div className="3xs:mt-[-12rem] mid:mt-[-2rem] lg:mt-[8rem] p-4">
-            <Image src={Laptop2} />
+            <div className="hidden sm:block">
+              <Image src={Laptop} />
+            </div>
+            <div className="block sm:hidden ml-11 layoutHidden">
+              <Image src={Laptop2} />
+            </div>
+            <div className="hidden sm:block absolute top-[26rem] ml-52 sm:top-[31rem] sm:ml-56  lg:top-40 lr:top-44 lg:ml-52 lr:ml-64 layoutHidden">
+              <Image src={layout} />
+            </div>
           </div>
         </div>
       </div>

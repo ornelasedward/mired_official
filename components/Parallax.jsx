@@ -11,7 +11,7 @@ const parallax = () => {
       {/* UX Design */}
       <div
         id="parallax_services"
-        className="section-content-area zero-around-spacing "
+        className="section-content-area zero-around-spacing"
       >
         <div className="process-content-area">
           <div className="process-content-wrap bg-[#F88170] border-r-4 border-black">
