@@ -758,14 +758,12 @@ footer a {
 /* laptop animation */
 
 .layoutHidden {
-  filter: blur(1px);
   transform: translateX(2%);
   transition: all 1s;
 }
 
 .layoutShow {
-  filter: blur(0);
   transform: translateX(-10%);
   transition: all 1s;
-  transition-delay: 300ms;
+  transition-delay: 600ms;
 }
