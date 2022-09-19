@@ -23,7 +23,7 @@ export default function Home() {
 
         <script defer type="text/javascript" src="/static/script.js"></script>
 
-        <script type="text/javascript" src="/static/segment.js"></script>
+        <script defer type="text/javascript" src="/static/segment.js"></script>
       </Head>
       <Bubbles />
       <Hero />
