@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@segment/snippet": "^4.15.3",
     "@splinetool/react-spline": "2.2.1",
     "@splinetool/runtime": "0.9.87",
     "emailjs-com": "^3.2.0",

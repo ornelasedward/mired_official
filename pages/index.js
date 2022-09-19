@@ -22,8 +22,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
         <script defer type="text/javascript" src="/static/script.js"></script>
-
-        <script defer type="text/javascript" src="/static/segment.js"></script>
       </Head>
       <Bubbles />
       <Hero />
