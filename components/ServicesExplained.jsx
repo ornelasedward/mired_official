@@ -99,7 +99,7 @@ const ServicesExplained = () => {
                   <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-1" />
                 </div>
 
-                <h4 className="text-2xl font-extrabold m-[2.5rem] text-center justify-center items-center">
+                <h4 className="text-2xl font-extrabold m-[2rem] text-center justify-center items-center">
                   Search Engine Optimization (seo)
                 </h4>
               </div>
@@ -223,7 +223,7 @@ const ServicesExplained = () => {
                   <div className="w-[1.125rem] h-[1.125rem] bg-white rounded-full border-2 border-[#1E1E1F] ml-1" />
                 </div>
 
-                <h4 className="text-3xl font-extrabold m-[2.5rem] text-center justify-center items-center">
+                <h4 className="text-3xl font-extrabold m-[1.65rem] text-center justify-center items-center">
                   Social Media Management
                 </h4>
               </div>
