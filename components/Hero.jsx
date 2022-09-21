@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="bg-[#FFF8D9]">
       {/* Mobile */}
 
-      <h1 className="3xs:text-2xl xs:text-4xl text-center mt-[8rem] block mid:hidden mb-[2rem]">
+      <h1 className="3xs:text-2xl xs:text-4xl text-center mt-[8rem] block mid:hidden mb-[2rem] layoutHidden2">
         we design and develop <br /> responsive websites <br /> and mobile
         applications.
       </h1>
@@ -42,7 +42,7 @@ const Hero = () => {
             data-aos="fade-down"
             data-aos-delay="400"
           >
-            <h1 className="mid:text-4xl lgr:text-4xl mid:mb-6 le:mb-9 lgr:mb-12 3xs:hidden mid:mt-[-1.5rem] lgr:mt-[3rem] mid:block mid:text-center lg:text-left">
+            <h1 className="mid:text-4xl lgr:text-4xl mid:mb-6 le:mb-9 lgr:mb-12 3xs:hidden mid:mt-[-1.5rem] lgr:mt-[3rem] mid:block mid:text-center lg:text-left layoutHidden2">
               we design and develop <br /> responsive websites <br /> and mobile
               applications.
             </h1>
@@ -78,7 +78,7 @@ const Hero = () => {
           <Image src={Arrow} />
         </div>
       </div>
-      <div className="hidden sm:block lg:max-w-[550px] lr:max-w-[700px] m-auto">
+      <div className="hidden sm:block lg:max-w-[550px] lr:max-w-[700px] m-auto hover_star">
         <div className="absolute animate-spin sm:mt-[-50rem] mid:ml-[5rem] mid:mt-[-50rem] lg:mt-[-16rem] lg:ml-[-4.7rem]">
           <Image src={star} />
         </div>
@@ -86,7 +86,7 @@ const Hero = () => {
           <Image src={espanol} width="85" />
         </div>
       </div>
-      <div className="hidden xs:block sm:hidden">
+      <div className="hidden xs:block sm:hidden hover_star">
         <div className="absolute animate-spin xs:mt-[-38rem]">
           <Image src={star} width="150" height="150" />
         </div>
@@ -94,7 +94,7 @@ const Hero = () => {
           <Image src={espanol} width="60" height="19" />
         </div>
       </div>
-      <div className="xs:hidden block">
+      <div className="xs:hidden block hover_star">
         <div className="absolute animate-spin mt-[-22rem]">
           <Image src={star} width="100" height="100" />
         </div>

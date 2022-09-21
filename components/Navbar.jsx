@@ -39,20 +39,20 @@ const Navbar = () => {
           style={{ Color: `${textColor}` }}
           className="hidden sm:flex sm:mr-[-6rem] sr:mr-[-9rem] md:mr-[-4rem] mr:mr-[-10rem] le:mr-[-13rem] lg:mr-[-19rem] lr:mr-[-25rem] xl:mr-[-30rem] lgg:mr-[-17rem] xlr:mr-[-30rem]"
         >
-          <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem]">
+          <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] hover_nav">
             <Link href="/">home</Link>
           </li>
-          <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem]">
+          <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] hover_nav">
             <Link href="#services">
               <a>services</a>
             </Link>
           </li>
-          <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem]">
+          <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] hover_nav">
             <Link href="#info">
               <a>info</a>
             </Link>
           </li>
-          <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] w-[9rem]">
+          <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] w-[9rem] hover_nav">
             <Link href="#Portfolio">
               <a>our work</a>
             </Link>

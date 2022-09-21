@@ -755,10 +755,24 @@ footer a {
   }
 }
 
+/* Nav Hover animation */
+
+.hover_nav:hover {
+  transform: scale(105%);
+  color: orange;
+}
+
+/* Star Hover animation */
+
+.hover_star:hover {
+  transform: scale(101%);
+  transition: transform 100ms ease-in-out;
+}
+
 /* laptop animation */
 
 .layoutHidden {
-  transform: translateX(2%);
+  transform: translateX(-2%);
   transition: all 1s;
 }
 
@@ -766,4 +780,19 @@ footer a {
   transform: translateX(-10%);
   transition: all 1s;
   transition-delay: 600ms;
+}
+
+/* Header animation */
+
+.layoutHidden2 {
+  opacity: 0%;
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.layoutShow2 {
+  opacity: 100%;
+  transform: translateX(0%);
+  transition: all 1s;
+  transition-delay: 300ms;
 }
