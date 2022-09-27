@@ -11,11 +11,13 @@ const Policy = () => {
           <h1 className="text-4xl my-2">PRIVACY NOTICE</h1>
           <h4 className="mb-11">Last updated September 21, 2022</h4>
           <p>
-            This privacy notice for Mired ("<b>Company</b>," "<b>we</b>," "
-            <b>us</b>," or "<b>our</b>"), describes how and why we might
-            collect, store, use, and/or share ("process") your information when
-            you use our services ("
-            <b>Services</b>"), such as when you:
+            This privacy notice for Mired `&quot;<b>Company</b>,`&quot; `&quot;
+            <b>we</b>`&quot; `&quot;
+            <b>us</b>,`&quot; or `&quot;<b>our</b>`&quot;), describes how and
+            why we might collect, store, use, and/or share
+            (`&quot;process`&quot;) your information when you use our services
+            (`&quot;
+            <b>Services</b>`&quot;), such as when you:
             <li className="m-2">
               Visit our website at{" "}
               <Link href="/">
@@ -247,7 +249,8 @@ const Policy = () => {
                 associated with your usage, pages and files viewed, searches,
                 and other actions you take such as which features you use),
                 device event information (such as system activity, error reports
-                (sometimes called "crash dumps"), and hardware settings).
+                (sometimes called `&quot;crash dumps`&quot;, and hardware
+                settings.
               </li>
               <li>
                 Device Data. We collect device data such as information about
@@ -421,10 +424,10 @@ const Policy = () => {
             <p>
               Vendors, Consultants, and Other Third-Party Service Providers. We
               may share your data with third-party vendors, service providers,
-              contractors, or agents ("third parties") who perform services for
-              us or on our behalf and require access to such information to do
-              that work. The categories of third parties we may share personal
-              information with are as follows:
+              contractors, or agents (`&quot;third parties`&quot;) who perform
+              services for us or on our behalf and require access to such
+              information to do that work. The categories of third parties we
+              may share personal information with are as follows:
             </p>
             <br />
 
@@ -453,11 +456,11 @@ const Policy = () => {
             <li>
               When we use Google Maps Platform APIs. We may share your
               information with certain Google Maps Platform APIs (e.g., Google
-              Maps API, Places API). To find out more about Google’s Privacy
-              Policy, please refer to this link. We obtain and store on your
-              device ("cache") your location. You may revoke your consent
-              anytime by contacting us at the contact details provided at the
-              end of this document.
+              Maps API, Places API). To find out more about Google`&quot;s
+              Privacy Policy, please refer to this link. We obtain and store on
+              your device (`&quot;cache`&quot;) your location. You may revoke
+              your consent anytime by contacting us at the contact details
+              provided at the end of this document.
             </li>
             <br />
             <li>
@@ -569,8 +572,8 @@ const Policy = () => {
               implied consent depending on the applicable law, you have the
               right to withdraw your consent at any time. You can withdraw your
               consent at any time by contacting us by using the contact details
-              provided in the section "HOW CAN YOU CONTACT US ABOUT THIS
-              NOTICE?" below.
+              provided in the section `&quot;HOW CAN YOU CONTACT US ABOUT THIS
+              NOTICE?`&quot; below.
             </p>
             <br />
             <p>
@@ -585,14 +588,14 @@ const Policy = () => {
               Opting out of marketing and promotional communications: You can
               unsubscribe from our marketing and promotional communications at
               any time by clicking on the unsubscribe link in the emails that we
-              send, replying "STOP" or "UNSUBSCRIBE" to the SMS messages that we
-              send, or by contacting us using the details provided in the
-              section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?" below. You
-              will then be removed from the marketing lists. However, we may
-              still communicate with you — for example, to send you
-              service-related messages that are necessary for the administration
-              and use of your account, to respond to service requests, or for
-              other non-marketing purposes.
+              send, replying `&quot;STOP`&quot; or `&quot;UNSUBSCRIBE`&quot; to
+              the SMS messages that we send, or by contacting us using the
+              details provided in the section `&quot;HOW CAN YOU CONTACT US
+              ABOUT THIS NOTICE?`&quot; below. You will then be removed from the
+              marketing lists. However, we may still communicate with you — for
+              example, to send you service-related messages that are necessary
+              for the administration and use of your account, to respond to
+              service requests, or for other non-marketing purposes.
             </p>
             <br />
             <p>
@@ -617,16 +620,16 @@ const Policy = () => {
             <br />
             <p>
               Most web browsers and some mobile operating systems and mobile
-              applications include a Do-Not-Track ("DNT") feature or setting you
-              can activate to signal your privacy preference not to have data
-              about your online browsing activities monitored and collected. At
-              this stage no uniform technology standard for recognizing and
-              implementing DNT signals has been finalized. As such, we do not
-              currently respond to DNT browser signals or any other mechanism
-              that automatically communicates your choice not to be tracked
-              online. If a standard for online tracking is adopted that we must
-              follow in the future, we will inform you about that practice in a
-              revised version of this privacy notice.
+              applications include a Do-Not-Track (`&quot;DNT`&quot;) feature or
+              setting you can activate to signal your privacy preference not to
+              have data about your online browsing activities monitored and
+              collected. At this stage no uniform technology standard for
+              recognizing and implementing DNT signals has been finalized. As
+              such, we do not currently respond to DNT browser signals or any
+              other mechanism that automatically communicates your choice not to
+              be tracked online. If a standard for online tracking is adopted
+              that we must follow in the future, we will inform you about that
+              practice in a revised version of this privacy notice.
             </p>
           </section>
           <section className="mt-11">
@@ -640,16 +643,17 @@ const Policy = () => {
             </p>
             <br />
             <p>
-              California Civil Code Section 1798.83, also known as the "Shine
-              The Light" law, permits our users who are California residents to
-              request and obtain from us, once a year and free of charge,
-              information about categories of personal information (if any) we
-              disclosed to third parties for direct marketing purposes and the
-              names and addresses of all third parties with which we shared
-              personal information in the immediately preceding calendar year.
-              If you are a California resident and would like to make such a
-              request, please submit your request in writing to us using the
-              contact information provided below.
+              California Civil Code Section 1798.83, also known as the
+              `&quot;Shine The Light`&quot; law, permits our users who are
+              California residents to request and obtain from us, once a year
+              and free of charge, information about categories of personal
+              information (if any) we disclosed to third parties for direct
+              marketing purposes and the names and addresses of all third
+              parties with which we shared personal information in the
+              immediately preceding calendar year. If you are a California
+              resident and would like to make such a request, please submit your
+              request in writing to us using the contact information provided
+              below.
             </p>
             <br />
             <p>
@@ -667,7 +671,10 @@ const Policy = () => {
             <br />
             <h2>CCPA Privacy Notice</h2>
             <br />
-            <p>The California Code of Regulations defines a "resident" as:</p>
+            <p>
+              The California Code of Regulations defines a
+              `&quot;resident`&quot; as:
+            </p>
             <br />
             <li>
               (1) every individual who is in the State of California for other
@@ -680,12 +687,14 @@ const Policy = () => {
               transitory purpose
             </li>
             <br />
-            <p>All other individuals are defined as "non-residents."</p>
+            <p>
+              All other individuals are defined as `&quot;non-residents.`&quot;
+            </p>
             <br />
             <p>
-              If this definition of "resident" applies to you, we must adhere to
-              certain rights and obligations regarding your personal
-              information.
+              If this definition of `&quot;resident`&quot; applies to you, we
+              must adhere to certain rights and obligations regarding your
+              personal information.
             </p>
             <br />
             <p>
@@ -759,7 +768,8 @@ const Policy = () => {
               We may use your personal information for our own business
               purposes, such as for undertaking internal research for
               technological development and demonstration. This is not
-              considered to be "selling" of your personal information.
+              considered to be `&quot;selling`&quot; of your personal
+              information.
             </p>
             <br />
             <p>
@@ -773,7 +783,8 @@ const Policy = () => {
             <p>
               The categories of third parties to whom we disclosed personal
               information for a business or commercial purpose can be found
-              under "WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?".
+              under `&quot;WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL
+              INFORMATION?`&quot;.
             </p>
             <br />
             <p>
@@ -830,7 +841,7 @@ const Policy = () => {
             </p>
             <br />
             <p>
-              Right to Non-Discrimination for the Exercise of a Consumer’s
+              Right to Non-Discrimination for the Exercise of a Consumer`&quot;s
               Privacy Rights
             </p>
             <br />
@@ -915,13 +926,13 @@ const Policy = () => {
             <br />
             <p>
               We may update this privacy notice from time to time. The updated
-              version will be indicated by an updated "Revised" date and the
-              updated version will be effective as soon as it is accessible. If
-              we make material changes to this privacy notice, we may notify you
-              either by prominently posting a notice of such changes or by
-              directly sending you a notification. We encourage you to review
-              this privacy notice frequently to be informed of how we are
-              protecting your information.
+              version will be indicated by an updated `&quot;Revised`&quot; date
+              and the updated version will be effective as soon as it is
+              accessible. If we make material changes to this privacy notice, we
+              may notify you either by prominently posting a notice of such
+              changes or by directly sending you a notification. We encourage
+              you to review this privacy notice frequently to be informed of how
+              we are protecting your information.
             </p>
           </section>
           <section className="mt-11">
