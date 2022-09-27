@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
 
       {/* Desktop  */}
-      <div className="max-w-[1240px] m-auto">
+      <div className="grid justify-center">
         <div className="flex flex-col items-center lg:flex-row mt-[9rem] lg:mt-0">
           <div
             className="mb-[3rem] p-4"
