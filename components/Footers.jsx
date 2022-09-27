@@ -6,6 +6,7 @@ import { BsYoutube } from "react-icons/bs";
 import Image from "next/image";
 import Logo from "../assets/Logo.png";
 import Link from "next/link";
+import privacyPolicy from "../pages/privacyPolicy";
 
 const Footers = () => {
   return (
@@ -46,7 +47,10 @@ const Footers = () => {
         </Link>
       </div>
 
-      <div className="footer__copyright">
+      <div className="footer__copyright justify-evenly flex">
+        <Link href="privacyPolicy">
+          <small className="cursor-pointer">privacy</small>
+        </Link>
         <small>&copy; 2022 mired . All rights reserved</small>
       </div>
     </footer>
