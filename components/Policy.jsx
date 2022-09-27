@@ -263,10 +263,10 @@ const Policy = () => {
               </li>
               <li>
                 Location Data. We collect location data such as information
-                about your device's location, which can be either precise or
-                imprecise. How much information we collect depends on the type
-                and settings of the device you use to access the Services. For
-                example, we may use GPS and other technologies to collect
+                about your device&apos;s location, which can be either precise
+                or imprecise. How much information we collect depends on the
+                type and settings of the device you use to access the Services.
+                For example, we may use GPS and other technologies to collect
                 geolocation data that tells us your current location (based on
                 your IP address). You can opt out of allowing us to collect this
                 information either by refusing access to the information or by
